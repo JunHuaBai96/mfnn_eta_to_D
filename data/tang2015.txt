@@ -1,0 +1,566 @@
+                                           CALPHAD: Computer Coupling of Phase Diagrams and Thermochemistry 49 (2015) 58–66
+
+
+
+                                                            Contents lists available at ScienceDirect
+
+                           CALPHAD: Computer Coupling of Phase Diagrams and
+                                         Thermochemistry
+                                                journal homepage: www.elsevier.com/locate/calphad
+
+
+
+
+Diffusivities in liquid and fcc Al–Mg–Si alloys and their application to
+the simulation of solidiﬁcation and dissolution processes
+Ying Tang, Lijun Zhang n, Yong Du
+State Key Lab of Powder Metallurgy, Central South University, Changsha 410083, China
+
+
+
+
+art ic l e i nf o                                     a b s t r a c t
+
+Article history:                                      The experimental viscosities and diffusivities in Al–Mg–Si melts as well as the experimental diffusivities
+Received 18 January 2015                              in fcc Al–Mg–Si alloys available in the literature were ﬁrst critically reviewed. The Sutherland equation
+Received in revised form                              was then employed to convert the experimental viscosity data into self-/tracer diffusivity data in Al–Mg–
+18 March 2015
+                                                      Si melts. Based on the experimental diffusivities together with the converted ones, the atomic mobilities
+Accepted 19 March 2015
+Available online 23 March 2015
+                                                      in liquid and fcc phases of the Al–Mg–Si system were assessed by means of DIffusion-Controlled
+                                                      TRAnsformation (DICTRA) software package. Comprehensive comparisons showed that most of the
+Keywords:                                             measured and converted diffusivities in liquid and fcc Al–Mg–Si system can be reasonably reproduced by
+Al–Mg–Si alloys                                       the currently obtained atomic mobilities. Moreover, the reliability of the established atomic mobilities of
+Atomic mobility
+                                                      liquid and solid phases were further veriﬁed by two typical cases in Al–Mg–Si alloys during solidiﬁcation
+Diffusivity
+                                                      and dissolution processes. The simulation results agree well with the experimental information, not only
+Viscosity
+Solidiﬁcation                                         validating the reliability of the atomic mobilities, but also demonstrating the importance of the accurate
+                                                      atomic mobility database in quantitative simulation of microstructure during various preparation pro-
+                                                      cesses.
+                                                                                                                         & 2015 Elsevier Ltd. All rights reserved.
+
+
+
+
+1. Introduction                                                                            A major obstacle associated with the establishment of atomic
+                                                                                       mobilities in both solid and liquid phases of the Al–Mg–Si system is
+    Mg and Si are two common elements of casting and wrought                           the lack of adequate diffusion coefﬁcients, especially for the liquid
+aluminum alloys. Al–Mg–Si based 6    Al alloys are widely                           phase due to experimental difﬁculties caused by convection in melts.
+utilized in automotive construction and the aerospace industries                       Zhang et al. [20] assessed atomic mobilities for the liquid phase based
+[1–4] due to high strength-to-density ratio, functional extrud-                        on both experimental and theoretically predicted diffusion coefﬁcients
+ability, age hardening characteristics, excellent corrosion re-                        via the DIffusion-Controlled TRAnsformation (DICTRA) software
+sistance, and surface and welding properties. Alloy performance is                     package. A preliminary atomic mobility database for liquid phase in
+highly dependent on microstructure formation during the pre-                           multicomponent Al alloys has been successfully established with this
+paration process [5,6]. Improvements in alloy performance require                      strategy [21]. Experimental and theoretical diffusivities, usually limited
+quantitative description and accurate control of microstructure                        in the research for most alloys; however, are still relied upon by this
+evolution in the target alloy during the preparation process.                          strategy. Research also reviewed recent work by Chen et al. [22], who
+    Recent research indicates that quantitative phase-ﬁeld simula-                     modiﬁed the Sutherland equation to establish the correlation between
+tion is a feasible method to achieve this goal [7–9]. CALculation of                   diffusivity and viscosity. Considering the limited viscosity data, the
+                                                                                       Kozlov model was chosen for representing viscosities in binary and
+PHAse Diagram (CALPHAD) thermodynamic and atomic mobility
+                                                                                       multicomponent melts, allowing predictions of different diffusivities in
+databases [10–12] are the prerequisite for quantitative phase-ﬁeld
+                                                                                       the target alloys and development of an atomic mobility database for
+simulation [13–15]. Reliable thermodynamic databases for a wide
+                                                                                       melts. The ﬁt degree of the predicted viscosities by the chosen Kozlov
+variety of alloys have been constructed [10,11] for the past 30 years
+                                                                                       model to the experimental data is the key factor determining the re-
+utilizing CALPHAD approach; however, atomic mobility databases
+                                                                                       liability of the estimated diffusivities.
+have not developed similarly. Several sets of thermodynamic de-
+                                                                                           The Sutherland equation [23] is a more efﬁcient application for
+scriptions [16–19] exist for the technically signiﬁcant Al–Mg–Si
+                                                                                       systems with large viscosity data sets, such as the Al–Mg–Si sys-
+system for example, but atomic mobility databases are not available.                   tem, as viscosity data is converted into the tracer diffusivity data in
+                                                                                       melts, from which the atomic mobility database for liquid phase
+  n
+      Corresponding author. Fax: þ86 731 88710855.                                     can be then established. The main objectives of this study are: i) to
+      E-mail addresses: lijun.zhang@csu.edu.cn, xueyun168@gmail.com (L. Zhang).        critically review research for all measured diffusivities and
+
+http://dx.doi.org/10.1016/j.calphad.2015.03.002
+0364-5916/& 2015 Elsevier Ltd. All rights reserved.
+                                    Y. Tang et al. / CALPHAD: Computer Coupling of Phase Diagrams and Thermochemistry 49 (2015) 58–66                           59
+
+
+viscosities in unary, sub-binary and ternary melts of the Al–Mg–Si                     the activation energy is uncertain [25], though the mechanism of
+system and diffusivities in fcc Al–Mg–Si alloys; ii) to convert                        diffusion in liquids varies from that in solids. The Darken equation
+viscosity data into self-diffusivities in sub-unary melts and to                       is also widely applied to estimate the inter-diffusion coefﬁcients in
+convert tracer diffusivities in sub-binary and ternary melts; iii) to                  simple liquids [26]. Equations applied in these circumstances
+evaluate atomic mobilities in liquid and fcc phases of the Al–Mg–Si                    suggest the concept of atomic mobility and the model for multi-
+system utilizing the DICTRA software package; iv) to verify relia-                     component diffusionin simple phases introduced by Anderson and
+bility of the established atomic mobilities of liquid and solid                        Ågren [27] may also be applied to the liquid phase. Recent related
+phases by choosing two typical cases in Al–Mg–Si alloys during                         research from our research group successfully demonstrated the
+solidiﬁcation and dissolution processes, and to demonstrate sig-                       application of atomic mobility concepts in simple liquid phase of
+niﬁcance of the accurate atomic mobility database for liquid phase                     both multicomponent Al and solder alloys [20–22], thus, the
+in quantitative simulation of microstructure during solidiﬁcation.                     model developed by Anderson and Ågren [27] is also employed to
+                                                                                       investigate diffusion in Al–Mg–Si melts in the present work. The
+                                                                                       operating diffusion mechanism is not identiﬁed as only phenom-
+2. Model description                                                                   enological treatment of various diffusion coefﬁcients in liquid is
+                                                                                       performed.
+2.1. Sutherland equation                                                                   According to Andersson and Ågren [27], the atomic mobility
+                                                                                       (MB) for an element B in both liquid and fcc phases can be ex-
+   Sutherland [23] derived a diffusion equation based on Stokes                        pressed as:
+Law which relates diffusivity to viscosity of the liquid metal:                                 ⎛ ΦB ⎞ 1
+                                                                                       MB = exp ⎜ ⎟
+    kT ⎛ 1 + 3η/βr ⎞                                                                            ⎝ RT ⎠ RT                                                      (7)
+D=      ⎜           ⎟
+   6πηr ⎝ 1 + 2η/βr ⎠                                                         (1)      where R is the gas constant, T the temperature, while
+where k is the Boltzmann constant, r is radius of the diffusing unit,                  ΦB = − Q B + RT ln MB0 , with Q B as the activation enthalpy and MB0
+                                                                                       as a frequency factor. ΦB is generally dependent on the composi-
+η is viscosity in the melts, and β is the coefﬁcient of sliding friction
+                                                                                       tion, temperature and pressure. Similar to the CALPHAD approach
+between the diffusing particle and the medium. Solute atoms
+                                                                                       [28], the composition dependency of ΦB can be represented by a
+movement among solvent atoms of equal size, in one extreme
+                                                                                       linear combination of the values at each endpoint of the composi-
+case, reveal solute atoms expediently traveling between gaps of
+                                                                                       tion space in a Redlich–Kister expansion:
+the solvent atoms and, in this case, β is equal to 0. The Sutherland
+                                                                                                                                   m
+equation for the self-diffusivity of a pure liquid metal A, D Aself then
+                                                                                       ΦB = ∑ xi Φ Bi + ∑ ∑ xi x j [ ∑ rΦBi, j (xi − x j )r ]
+may be written as:                                                                             i                  i   j>i          r=0
+
+              kT                                                                                                      s s i, j, k
+                                                                                              + ∑ ∑ ∑ xi x j xk [ ∑ vijk ΦB ]            (s
+D Aself =
+            4πηA rA                                                           (2)                  i    j>i k>j             s= 0
+
+
+   The tracer diffusivities of A, DA*, in a A–B alloy based on the                         = i, j, k)                                                          (8)
+Sutherland equation may be expressed as:
+                                                                                       where xi is the mole fraction of element i, Φ Bi is the value of ΦB for
+       kT ⎛ 1 + 3η/βAB rB ⎞                                                            pure i, rΦBi, j are binary interaction parameters and sΦBi, j, k are ternary
+DA* =       ⎜⎜              ⎟⎟                                                                                             s
+      6πηrA ⎝ 1 + 2η/βAB rB ⎠                                                          parameters. The parameter vijk        is derived by an equation in the
+                                                                              (3)
+                                                                                       form:
+    Chen et al. [22] recently suggested, if T Am < T Bm or rA /rB ≤ 1.01                 s
+                                                                                       vijk = xs + (1 − xi − x j − xk )/3                                      (9)
+when T Am ≥ T Bm , βAB is equal to 0. 0.01 is introduced to allow a small
+difference for the radius of the solute A and solvent B atoms. Eq.                         With atomic motilities known, the tracer diffusion coefﬁcient
+(3) may then be simpliﬁed to be:                                                       (Di⁎) is then related to the atomic mobility via a simple relation,
+         kT                                                                            Di⁎ = RTMi . The inter-diffusion coefﬁcient (Dkjn ), which relates the
+DA* =
+        4πηrA                                                                 (4)      ﬂux of element k with the gradient of component j and reference
+                                                                                       component n, is derived by:
+    If rA /rB > 1.01 when T Am ≥ T Bm , βAB approaches to inﬁnite,thus, Eq.
+                                                                                                                   ⎛ ∂u     ∂ui ⎞
+(3) may be re-written as:                                                                                               i
+                                                                                       Dkjn = ∑ (δik − xk ) xi Mi ⎜⎜      −     ⎟⎟
+                                                                                                                   ⎝ j
+                                                                                                                     ∂x     ∂xn ⎠                             (10)
+         kT                                                                                   i
+DA* =
+        6πηrA                                                                 (5)      where δik is the Kroneker delta (δik = 1 if i¼k, otherwise δik = 0)
+                                                                                       and ui is the chemical potential of element i. Mi is the composition
+   More precise temperature-dependent diffusivities in melts may
+                                                                                       dependent atomic mobility for element i.
+be obtained by the following temperature-dependent radius [24]:
+
+          ⎧ 3f ⋅Vim⋅[1 + αi ⋅(T − Tim )] ⎫1/3
+ri (T ) = ⎨                              ⎬                                             3. Literature review
+          ⎩            4πNA              ⎭                                    (6)
+
+where f is the volume-packing which approaches to 0.45, Vim is                             All critically reviewed experimental diffusivities and viscosities
+the molar volume of element i at melting temperature Tim , αi is the                   in liquid Al–Mg–Si alloys and the experimental diffusivities in fcc
+thermal expansion coefﬁcient of pure element i, and NA is the                          Al–Mg–Si alloys available in the literature are summarized in
+Avogadro number.                                                                       Table 1 and brieﬂy categorized in the following.
+
+2.2. Atomic mobility                                                                   3.1. Diffusivities
+
+    The Arrhenius equation is typically employed to describe self-                       Reported experimental diffusivities associated with Al–Mg–Si
+diffusion and impurity diffusion in liquids where the identity of                      melts are limited. Demmel et al. [29] and Kargl et al. [30] recently
+60                                Y. Tang et al. / CALPHAD: Computer Coupling of Phase Diagrams and Thermochemistry 49 (2015) 58–66
+
+
+Table 1                                                                              and exhibited consistency. Experimental viscosities for liquid Mg–
+Summary of the experimental diffusivities and viscosities in the liquid and fcc      Si have not been recorded in research, thus all experimental
+phases of Al–Mg–Si system.
+                                                                                     viscosities for both Al–Mg and Al–Si melts are converted into
+ Phases       Type of data         T (K)           Methoda      Ref.      Codeb      tracer diffusivities in respective binary melts for mobility
+                                                                                     assessment.
+ Liquid        Al
+             D Al                   943–1143       QNS          [29]      þ             One sample of experimental information exists for ternary Al–
+                                    980–1060       QNS          [30]      þ
+                                                                                     Mg–Si melts. Wang and Overfelt [42] determined viscosities in
+              ⁎ (Al−Si)
+             DSi                    858–1123       CR           [31]      þ
+                                                                                     A356 melts (alloy composition: Al-0.34 wt% Mg-6.9 wt% Si) at
+             ηAl                    973–1173       OV           [34]      þ
+                                    935–1107       OS           [35]      þ          963–1113 K by utilizing the oscillating cup method. Viscosities
+                                    937–1137       RC           [36]      þ          determined by Wang and Overfelt [42] are also converted into
+                                    939–1141       RC           [37]      þ          ternary melts for mobility check and assessment.
+                                    935–1037       OV           [38]      þ
+                                    950–1225       OV           [39]      þ
+                                    945–1080       OV           [40]      þ
+                                    933–1275       OV           [41]      þ          4. Results and discussion
+                                    950–1115       OV           [42]      þ
+                                    937–1170       OV           [43]      þ
+                                                                                     4.1. Atomic mobilities in liquid and fcc phases
+                                    973–1173       OV           [44]      ■
+             ηMg                    937–1170       RC           [36]      þ
+                                    925–998        OS           [45]      þ              The reviewed viscosities in Section 3.2 were converted into
+             ηSi                   1164–1892       OV           [46]      þ          corresponding diffusivities in melts based on the Sutherland
+                                   1688–1880       OV           [47]      þ          equations (Eqs. (2) and (3)) (Figs. 1–4). The converted self-diffu-
+                                   1690–1825       OV           [48]      ■
+                                   1713–1903       OV           [49]      þ
+                                                                                     sivities in pure Al melts and tracer diffusivities of Si in liquid Al-
+             ηAlMg                  750–1173       RC           [36]      þ          12.5 wt% Si alloys illustrate exceptional alignment with the cor-
+                                    834–1082       RC           [50]      þ          responding experimental data [29–31] (Figs. 1(a) and 3(b)). The
+                                    973–1173       OV           [44]      þ          converted diffusivities in melts from the viscosity data are con-
+                                    908–1164       OV           [51]      þ          sidered reliable as experimental data.
+                                    873–1173       OV           [52]      þ
+                                                                                         Optimization of model parameters in Eq. (8) was attained by
+             ηAlSi                  937–1173       RC           [36]      þ
+                                    856–1173       RC           [37]      þ          incorporating the PARROT module into the DICTRA software
+                                    849–1085       RC           [50]      þ          package [56] based on both diffusivities from experimental mea-
+                                    893–1373       OV           [53]      þ          surements and those converted from the viscosity data. The
+                                    860–980        RC           [54]      þ
+                                                                                     thermodynamic descriptions of the fcc and liquid phases in the Al–
+                                    873–1273       OV           [55]      þ
+             ηAlMgSi                963–1113       OV           [42]      □          Mg–Si system were attained from previous work (in linear ex-
+ fcc          ⁎ (Al−Mg−Si)
+             DMg                    773–853        RA           [33]      þ          pression) [18]. Atomic mobilities of end-members in the liquid
+                                                                                     phase were optimized ﬁrst on the basis of self and tracer diffu-
+    a
+      RA: Residual Activity method; QNS: Quasi-elastic Neutron Scattering; CR:       sivities in binary melts. Binary and ternary interaction parameters
+Capillary Reservoir method; OV: Oscillating vessel; OS: Oscillating sphere; RC:      in both liquid and fcc phases were then introduced if advanta-
+Rotating Cylinder.
+    b
+                                                                                     geous to the ﬁt with binary and ternary diffusivities. Finally ob-
+      Indicates that the data are used or not used in the atomic assessment;þused;
+                                                                                     tained atomic mobilities in liquid and fcc phases combined with
+□not used but considered as reliable data for checking the parameters; ■ not used.
+                                                                                     researched binary fcc phases are presented in Table 2.
+                                                                                         Fig. 1 compares calculated self-diffusivities and impurity dif-
+measured the Al self-diffusion in liquid Al utilizing the neutron
+                                                                                     fusivities in liquid Al, Mg and Si according to the presently ob-
+scattering method while Petrscu [31] measured the tracer diffu-
+sivity of Si in liquid Al-12.5 wt% Si over the temperature range of                  tained atomic mobilities in liquid phase with the experimental
+858–1123 K.                                                                          data [29,30] and the converted data from experimental viscosities
+    Critical review of all diffusivities in the three binary boundaries              [34–49]. Calculated self-diffusion coefﬁcients in liquid Al align
+for the fcc phase is omitted as atomic mobilities in fcc Al–Mg, Al–Si                with both experimental [29,30] and converted data [34–44] in-
+and Mg–Si alloys were established [32] recently and most ex-                         dicating converted approach reliability. Calculated self-diffusivities
+perimental diffusion properties may be reproduced [32]. Experi-                      of liquid Mg also align with the converted data [36,45]. Calculated
+mental diffusivity information for ternary fcc Al–Mg–Si alloy is                     self-diffusion coefﬁcients of liquid Si locate around the center of all
+included from Fujikawa [33], with determined tracer diffusivities                    the converted data [46–49], and give a good ﬁt to the data from
+of Mg in Al-0.97, 1.15 and 1.44 at% Mg2Si alloys were derived by                     Satoaet al. [46] and Sasakiet al. [47]. Impurity diffusion informa-
+                                                                                                                                                        Mg
+applying the residual activity method. The experimental data from                    tion is not present from past research, thus end-members of Φ Al      ,
+[33] was employed to assess the ternary interaction parameters in                      Al
+                                                                                     Φ Mg and ΦSiAl were evaluated by ﬁtting the tracer diffusivities in the
+fcc phase.                                                                                                                                    Si
+                                                                                     Al-rich, Mg-rich side and Si-rich side. End-members of Φ Al     Si
+                                                                                                                                                 , Φ Mg
+                                                                                     were set to be equal to ΦSiSi due to lack of experimental informa-
+3.2. Viscosities
+                                                                                     tion, while, for simpliﬁcation purposes, the end-member of ΦSiMg
+                                                                                                                 Mg
+   The experimental viscosities of pure Al, Mg and Si melts were                     was set to be equal to Φ Mg    . Calculated impurity diffusion coefﬁ-
+determined to align by several groups [34–49], thus, are converted                   cients of Mg and Si in liquid Al, Al and Si in liquid Mg, and Al and
+into corresponding diffusivities for mobility assessment.                            Mg in liquid Si are also presented in Fig. 1.
+   Lihl et al. [36] investigated the viscosities in Al–Mg melts over                     Fig. 2(a) and (b) compares the presently calculated tracer dif-
+the whole composition region of 750–1173 K for sub-binaries.                         fusivitities of Al and Mg in Al–Mg melts over the entire compo-
+Viscosities in Al-rich Al–Mg melts were measured by Wang et al.                      sition region with the converted tracer diffusivities [36,44,50–52].
+[44] and Jones et al. [50], while those in Mg-rich region were                       The presently calculated results align with the measured values.
+measured by Mi et al. [51,52]. All measured viscosities[36,44,50–                    Fig. 3(a) and (b) present calculated tracer diffusion coefﬁcients of
+52] in Al–Mg melts were in alignment. The viscosities in Al–Si                       Al and Si in the Al–Si alloys over the composition region from 1 at%
+melts were also determined by several groups [36,37,50,53–55]                        Si to 23.4 at% Si, respectively. Calculated results were compared
+                                    Y. Tang et al. / CALPHAD: Computer Coupling of Phase Diagrams and Thermochemistry 49 (2015) 58–66                                        61
+
+
+
+
+Fig. 1. (color on the web) (a) Calculated self-diffusion coefﬁcients and impurity diffusion coefﬁcients of Mg and Si in liquid Al, (b) calculated self-diffusion coefﬁcients and
+impurity diffusion coefﬁcients of Al and Si in liquid Mg, and (c) calculated self-diffusion coefﬁcients and impurity diffusion coefﬁcients of Al and Mg in liquid Si. The
+calculated self-diffusion coefﬁcients are compared with the experimental data [29,30] and the converted data from experimental viscosity data [34–49]. A constant, M, is
+added in order to separate the different types of data in the ﬁgure.
+
+
+
+with experimental diffusivities [31] and diffusivities converted                          thermodynamic descriptions from the present authors [18], rea-
+from the viscosities [36,37,50,53–55] and were found to be cap-                           listic prediction of microstructure evolution in Al–Mg–Si alloys
+able of functionally reproducing all diffusivities due to the present                     during different materials processes may be derived utilizing the
+atomic mobilities.                                                                        DICTRA software package. Experimental data may also be applied
+    Fig. 4 displays the calculated tracer diffusion coefﬁcients of Al,                    to further validate reliability of the established atomic mobility
+Mg and Si in liquid Al-0.34 wt% Mg-6.9 wt% Si alloy along with the                        and thermodynamic databases. Validation examples include si-
+tracer diffusion coefﬁcients converted from experimental liquid                           mulation of the Differential Scanning Calorimetry (DSC) curves of
+viscosity data [42]. Successful alignment with diffusivities despite                      two commercial Al–Mg–Si alloys during solidiﬁcation and simu-
+lack of ternary parameters indicates reliability of the presently                         lation of the dissolution process of Mg2Si in fcc matrix. Two
+established liquid atomic mobility for the Al–Mg–Si system.
+                                                                                          commercial Al alloys, A356.0 (Al-0.3 wt% Mg-7 wt% Si) and A357.0
+    Fig. 5 presents the comparison between the calculated and
+                                                                                          (Al-0.7 wt% Mg-7 wt% Si) were employed for demonstration in the
+experimental tracer diffusion coefﬁcients of Mg in different fcc
+                                                                                          ﬁrst example. The thermodynamic description of the Al–Mg–Si
+Al–Mg–Si alloys at the temperature 773–853 K [33]. Currently
+                                                                                          system from previous work [18] and atomic mobilities of fcc phase
+calculated results again align with experimental data, indicating
+                                                                                          obtained in the present work were utilized. Effect of liquid atomic
+reliability of the presently obtained fcc phase mobility parameters.
+                                                                                          mobilities on microstructure during solidiﬁcation is studied by
+4.2. Simulation of solidiﬁcation and dissolution processes                                considering two cases. Case 1 refers to the presently obtained
+                                                                                          atomic mobility of the liquid phase, while Case 2 refers to the
+   Based on the presently obtained atomic mobilities in liquid and                        diffusion coefﬁcient of liquid assumed to be constant (i.e.
+fcc phases of the Al–Mg–Si system together with the previous                              1 × 10−9 m2/s).
+62                                 Y. Tang et al. / CALPHAD: Computer Coupling of Phase Diagrams and Thermochemistry 49 (2015) 58–66
+
+
+
+
+Fig. 2. (color on the web) Calculated tracer diffusion coefﬁcients in liquid Al–Mg alloys, compared with the converted data from experimental viscosity data [36,44,50–52]. A
+constant, M, is added in order to separate the data from different compositions in the ﬁgure.
+
+
+
+
+    Starting solidiﬁcation temperature and cooling rate for the two                      the liquid phase region, and the other two regions, fcc-(Al) and
+alloys are 650 °C and 10 °C /min, respectively, according to                             (Si), with extremely small volume on the separated sides.
+the experimental information [57]. The Scheil simulation indicates                           In a heat ﬂux DSC with pure Al as reference [57], the heat ﬂow
+the major solidiﬁcation sequence is Liquid → Liquid + fcc−                               may be formulated as:
+(Al) → Liquid + fcc−(Al) + (Si) for both A356.0 and A357.0 alloys
+                                                                                                             d (fliq ⋅Hliq + ffcc ⋅Hfcc + f(Si) ⋅H(Si) − Hpure − Al ) ΔT
+except some minor phases (i.e. Al5FeSi, Al8FeMg3Si6 and Mg2Si)                           heat flow(w/g) =                                                            ⋅
+                                                                                                                                        dT                             Δt   (11)
+also form at a later stage due to the relatively higher Mg content in
+A357.0 alloy. Only liquid, fcc-(Al) and (Si) phases were considered                      where fliq , ffcc and f(Si) are the volume fractions of liquid, fcc-(Al)
+in the present DICTRA simulation to simplify the simulation pro-                         and (Si) phases during the solidiﬁcation, Hliq , Hfcc , H(Si) and Hpure − Al
+cess. Moreover, no diffusion is considered in (Si) phase. Typical                        are the enthalpies of each phase in J/g, and ΔT /Δt is the cooling
+initial settings for eutectic solidiﬁcation in DICTRA were estab-                        rate in K/s. The volume fraction and enthalpy for each phase may
+lished with nearly the entire one-dimensional domain occupied by                         be obtained with the DICTRA simulation based on the
+                                   Y. Tang et al. / CALPHAD: Computer Coupling of Phase Diagrams and Thermochemistry 49 (2015) 58–66                                     63
+
+
+
+
+Fig. 3. (color on the web) Calculated tracer diffusion coefﬁcients in liquid Al–Si alloys, compared with the experimental data [31] and the converted data from experimental
+viscosity data [36,37,50,53–55]. A constant, M, is added in order to separate the data from different compositions in the ﬁgure.
+
+
+thermodynamic database [18] combined with the present atomic                            formation is actually corresponding to the liquidus line as de-
+database.                                                                               termined by the thermodynamic descriptions and nucleation was
+    The DICTRA simulated DSC curves of A356.0 and A357.0 alloys                         not considered in DICTRA simulation. The ii) driving force for
+based on Cases 1 and 2 along with the experimental data [57] are                        nucleation in typical Al alloys is typically 6 °C lower than the li-
+presented in Fig. 6. Primary fcc-(Al) phase solidiﬁes and grows at                      quidus line. A similar situation is observed in A357.0 alloy (Fig. 6
+the expense of the liquid phase as time increases (Fig. 6a) with the                    (b)) with a difference that some minor phases (i.e. Mg2Si, Al5FeSi)
+(Si) then forming at the eutectic reaction. Peak 1 corresponds to                       form just after Peak 2 in the experiment, leading to a wide peak
+the formation of primary (Al) dendrites, while peak 2 represents                        temperature range due to peak overlaps while in the present si-
+the eutectic reaction. Simulated temperatures for the two peaks,                        mulation, all minor phases were suspended. Conclusions may be
+according to Case 1, are 605.5 and 560 °C, close to the experi-                         formed based on Fig. 6; i) with the reliable thermodynamic and
+mental temperatures (605 and 563 °C, respectively) [57]. The two                        atomic mobilities database, DSC curves during solidiﬁcation in
+peaks simulated on the basis of Case 2; however, exhibit large                          technical alloys may be quantitatively described; ii) liquid diffu-
+deviations from the experimental temperatures. Simulated start-                         sivities exhibit a noticeable effect on microstructure during soli-
+ing temperatures for primary fcc-(Al) phase formation for Case                          diﬁcation, thus an accurate liquid atomic mobility database is re-
+1 and Case 2 are the same (i.e., 616 °C) and 6 °C higher than the                       quired for quantitative prediction of microstructure evolution
+experiment detected temperature (about 610 °C) [57]. Explained as                       during solidiﬁcation.
+the i) the starting temperature for primary fcc-(Al) phase                                  The dissolution of Mg2Si in fcc-(Al) matrix is an integral
+64                                    Y. Tang et al. / CALPHAD: Computer Coupling of Phase Diagrams and Thermochemistry 49 (2015) 58–66
+
+
+
+
+Fig. 4. Calculated tracer diffusion coefﬁcients in liquid Al-0.34 wt% Mg-6.9 wt% Si
+                                                                                         Fig. 5. (color on the web) Calculated tracer diffusion coefﬁcients in fcc Al–Mg–Si
+alloy, compared with the converted data from experimental viscosity data [42]. A
+                                                                                         alloys, compared with the experimental data [33]. A constant, M, is added in order
+constant, M, is added in order to separate the data from different elements in the
+                                                                                         to separate the data from different compositions in the ﬁgure.
+ﬁgure.
+
+
+
+
+                                                                                         material process during preparation of Al–Mg–Si commercial
+                                                                                         wrought alloys acting as another example to validate reliability of
+Table 2
+Summary of atomic mobility parameters of Al, Mg and Si in the fcc and liquid             atomic mobilities in the fcc-(Al) phase. Atomic mobility of fcc-(Al)
+phases of Al–Mg–Si system.                                                               phase evaluated in the present work was utilized in the present
+                                                                                         dissolution simulation and diffusion was not considered during
+ Phases       Mobility            Parameters                            Ref.
+                                                                                         simulation for the Mg2Si phase. Initial settings are schematically
+ Liquid       Mobility of Al        Al                                  This work        displayed in Fig. 7 and illustrate the Mg2Si particle with initial
+                                  Φ Al = − 24830.3 − 130.62⋅T
+                                    Mg
+                                                                                         radius r0 is surrounded by an fcc-(Al) matrix with a reduced radius
+                                  Φ Al = − 15952.9 − 140.70⋅T
+                                                                                         RAl. The value of r03/(R Al + r0 )3 is equal to the volume fraction of
+                                    Si = − 41794.2 − 121.96⋅T
+                                  Φ Al
+                                                                                         Mg2Si particles in the alloy with these settings and initial values
+                                  0 Al,Si
+                                   ΦAl = 17050.5                                         for r0 and RAl are set at 0.4 um and 2.14 um according to the ex-
+                                  0 Al,Mg
+                                   ΦAl    = − 17801.0                                    perimental data [58] in the present simulation.
+              Mobility of Mg        Al
+                                  Φ Mg = − 19503.8 − 137.26⋅T                                The equilibrium phase concentrations for AA6063 alloy (Al-
+                                    Mg
+                                  Φ Mg = − 24502.2 − 130.11⋅T
+                                                                                         0.45 wt% Mg-0.40 wt% Si) at 367 °C were set at the initial con-
+                                    Si
+                                                                                         centrations for fcc-(Al) and Mg2Si according to the experiment
+                                  Φ Mg = − 41794.2 − 121.96⋅T
+                                                                                         [58]. Mg2Si precipitate begins to dissolve when heating from
+                                  0 Al,Mg
+                                  Φ Mg    = − 3592.5                                     350 °C to a higher temperature at different heating rates (heating
+              Mobility of Si      Φ SiAl = − 28352.2 − 121.79⋅T                          rates were set at 10 °C/min and 170 °C/min according to [58] for
+                                  Φ SiMg = − 24502.02 − 130.11⋅T                         this study). Simulated volume fractions of the dissolvedMg2Si
+                                  Φ SiSi = − 41794.2 − 121.96⋅T
+                                                                                         precipitate against temperature for AA6063 alloy at heating rates
+ fcc          Mobility of Al        Al                                  [32]             of 10 °C/min and 170 °C/min are presented in Fig. 7. Simulated
+                                  Φ Al = − 123111.6 − 97.34⋅T
+                                    Mg
+                                                                                         results align with the experimental data by Langkruis et al. [58],
+                                  Φ Al = − 112499.0 − 81.26⋅T
+                                                                                         indicating reliability of the presently obtained atomic mobilities of
+                                    Si = − 155634.9 − 81.03⋅T
+                                  Φ Al
+                                                                                         fcc-(Al) phase.
+                                    Al,Si = 1846710.2
+                                  Φ Al
+              Mobility of Mg        Al
+                                  Φ Mg = − 121268.4 − 89.95⋅T
+                                    Mg
+                                  Φ Mg = − 112499.0 − 81.26⋅T                            5. Conclusion
+                                    Si
+                                  Φ Mg = − 155634.9 − 81.03⋅T
+                                  0 Al,Mg                                                   All measured diffusivities and viscosities in sub-unary, sub-
+                                  Φ Mg    = 84924.19
+                                                                                         binary and ternary melts of the Al–Mg–Si system and diffusivities
+                                  0 Al,Si
+                                  Φ Mg    = − 120434.32                 This work
+                                                                                         in fcc Al–Mg–Si alloys available in the literature were critically
+              Mobility of Si      Φ SiAl = − 117600.0 − 93.05⋅T         [32]
+                                                                                         reviewed. The Sutherland equation was applied to convert ex-
+                                  Φ SiMg = − 112499.0 − 81.26⋅T                          perimental viscosities into self and tracer diffusivities in Al–Mg–Si
+                                  Φ SiSi = − 155634.9 − 81.03⋅T                          melts. Atomic mobilities of Al, Mg and Si for liquid and solid Al–
+                                  0Al,Si
+                                  ΦSi    = − 152613.88                                   Mg–Si system were successfully evaluated by utilizing DICTRA
+                                                                                         software based on the reliable experimental and converted
+                                  Y. Tang et al. / CALPHAD: Computer Coupling of Phase Diagrams and Thermochemistry 49 (2015) 58–66                                       65
+
+
+
+
+                                                                                     Fig. 7. (color on the web) Simulated volume fraction for the dissolved Mg2Si pre-
+                                                                                     cipitate in fcc-(Al) matrix against temperature for AA6063 (Al-0.45 wt% Mg-
+                                                                                     0.40 wt% Si) along with experimental data [58].
+
+
+                                                                                     Acknowledgments
+
+                                                                                         The ﬁnancial support from the National Natural Science Foun-
+                                                                                     dation of China (Grant nos. 51474239, 51301208), the Sino-German
+                                                                                     Center for Promotion of Science (Grant no. GZ755), and the Na-
+                                                                                     tional Basic Research Program of China (Grant no. 2011CB610401)
+                                                                                     is greatly acknowledged. Ying Tang acknowledges the support
+                                                                                     from Hunan Provincial Innovation Foundation for Postgraduate.
+                                                                                     Lijun Zhang acknowledges the support from Shenghua Scholar
+                                                                                     Program of Central South University, China.
+
+
+                                                                                     Appendix A. Supplementary material
+Fig. 6. (color on the web) DICTRA simulated DSC curves for (a) A356.0 (Al-0.3 wt%
+Mg-7 wt% Si), (b) A357.0 (Al-0.7 wt% Mg-7 wt% Si) at the cooling rate of 10 K/min,      Supplementary data associated with this article can be found in
+compared with the experimental data [57]. Case 1 for the DICTRA simulation is
+based on the presently obtained atomic mobilities in Al–Mg–Si melts, while Case
+                                                                                     the online version at http://dx.doi.org/10.1016/j.calphad.2015.03.
+2 is with the common simpliﬁcation that the diffusion coefﬁcient of liquid is as-    002.
+sumed to be constant (i.e.1 × 10−9 m2/s ).
+
+
+                                                                                     References
+
+diffusivities. Comprehensive comparisons indicate most of the                         [1] R. Holmestad, R. Bjørge, F.J.H. Ehlers, M. Torsæter, C.D. Marioara, S.J. Andersen,
+diffusivities from different sources may be accurately reproduced                         Characterization and structure of precipitates in 6xxx Aluminium alloys, J.
+                                                                                          Phys. Conf. Ser. 371 (2012) 012082.
+by the obtained atomic mobilities. Reliability of the established
+                                                                                      [2] H.W. Zandbergen, S.J. Andersen, J. Jansen, Structure determination of Mg5Si6
+atomic mobilities of liquid and solid phases were further veriﬁed                         particles in Al by dynamic electron diffraction studies, Science 277 (1997)
+by choosing two typical examples in Al–Mg–Si alloys during soli-                          1221–1225.
+                                                                                      [3] C. Ravi, C. Wolverton, First-principles study of crystal structure and stability of
+diﬁcation and dissolution processes. Alignment between the si-                            Al-Mg-Si-(Cu) precipitates, Acta Mater. 52 (2004) 4213–4227.
+mulation and experiments validate reliability of the present liquid                   [4] A.G. Frøseth, R. Høier, P.M. Derlet, S.J. Andersen, C.D. Marioara, Bonding in
+                                                                                          MgSi and Al–Mg–Si compounds relevant to Al–Mg–Si alloys, Phys. Rev. B 67
+and solid atomic mobility databases. Signiﬁcance of the accurate                          (2003) 224106.
+atomic mobility database for liquid phase in quantitative simula-                     [5] J.H. Chen, E. Costan, M.A. van Huis, Q. Xu, H.W. Zandbergen, Atomic pillar-
+                                                                                          based nanoprecipitates strengthen AlMgSi alloys, Science 312 (2006) 416–419.
+tion of microstructure evolution is also demonstrated. A straight-
+                                                                                      [6] R.T. DeHoff, Engineering of microstructures, Mater. Res. 2 (1999) 111–126.
+forward and effective method is developed to establish a precise                      [7] L.Q. Chen, Phase-ﬁeld models for microstructure evolution, Annu. Rev. Mater.
+liquid atomic mobility database for systems with experimental                             Res. 32 (2002) 113–140.
+                                                                                      [8] W.J. Boettinger, J.A. Warren, C. Beckermann, A. Karma, Phase-ﬁeld simulation
+viscosity data (e.g. Al–Mg–Si system). The atomic mobility data-                          of solidiﬁcation, Annu. Rev. Mater. Res. 32 (2002) 163–194.
+base for all types of alloys melts may be established based on                        [9] I. Steinbach, Phase-ﬁeld models in materials science, Modell. Simul. Mater. Sci.
+                                                                                          Eng. 17 (2009) 073001–073031.
+previous work [20,22] and the present study.                                         [10] 〈http://www.thermocalc.com/products-services/databases/〉 accessed 14.01.15.
+                                                                                     [11] Y. Du, S. Liu, L. Zhang, H. Xu, D. Zhao, A. Wang, An overview on phase equilibria
+                                                                                          and thermodynamic modeling in multicomponent Al alloys: focusing on the
+66                                   Y. Tang et al. / CALPHAD: Computer Coupling of Phase Diagrams and Thermochemistry 49 (2015) 58–66
+
+
+     Al–Cu–Fe–Mg–Mn–Ni–Si–Zn system, CALPHAD 35 (2011) 427–445.                                 (1968) 213–219.
+[12] L. Zhang, D. Liu, W. Zhang, S. Wang, Y. Tang, N. Ta, M. Wei, Y. Du, A new dif-        [37] J.M. Vignau, Viscosity and castability of aluminum and aluminum-silicon al-
+     fusivity database for multi-component Al alloys: focusing on ternary systems               loys, Metaux: Corrosion-Industrie 43 (1968) 93–108.
+     and its effect on microstructure evolution during solidiﬁcation, Mater. Sci.          [38] M.J. Pakiewicz, Department of Chemistry, Syracuse University, New York,
+     Forum 794-796 (2014) 611–616.                                                              1970, Ph. D Thesis.
+[13] A. Karma, Phase-ﬁeld formulation for quantitative modeling of alloy solidiﬁ-          [39] P.P. Arsentev, K.I. Polyakova, Viscosity of liquid aluminum, Izv. Akad. Nauk
+     cation, Phys. Rev. Lett. 87 (2001) 115701.                                                 SSSR Met. 2 (1977) 68–70.
+[14] I. Steinbach, L. Zhang, M. Plapp, Phase-ﬁeld model with ﬁnite interface dis-          [40] T. Yamasaki, S. Kanatani, Y. Ogino, A. Inoue, Viscosity measurements for liquid
+     sipation, Acta Mater. 60 (2012) 2689–2701.                                                 Al-Ni-La and Al-Ni-Mm (Mm: Mischmetal) alloys by an oscillating crucible
+[15] L. Zhang, I. Steinbach, Phase-ﬁeld model with ﬁnite interface dissipation: ex-             method, J. Non-Cryst. Solids 156-158 (1993) 441–444.
+     tension to multi-component multi-phase alloys, Acta Mater. 60 (2012)                  [41] K.C. Mills, L.A. Chapman, A.B. Fox, D. Sridhar, Round robin project on esti-
+     2702–2710.                                                                                 mation of slags viscosities, Scand. J. Metall. 30 (2001) 396–403.
+[16] N. Chakraborti, H.L. Lukas, Thermodynamic optimization of the Mg–Al–Si                [42] D. Wang, R.A. Overfelt, Oscillating cup viscosity measurements of aluminum
+     phase diagram, CALPHAD 16 (1992) 79–86.                                                    alloys: A201, A319 and A3561, Int. J. Thermophys. 23 (2002) 1063–1076.
+[17] H. Feufel, T. Gödecke, H.L. Lukas, F. Sommer, Investigation of the Al–Mg–Si           [43] Y. Sato, Research and Development of Innovative Casting Simulation sup-
+     system by experiments and thermodynamic calculations, J. Alloys Compd. 247                 ported by New Energy and Industrial Technology Development Organization
+     (1997) 31–42.                                                                              (NEDO), through the Japan Space Utilization Promotion Center (JSUP), Report
+[18] Y. Tang, Y. Du, L.J. Zhang, X.M. Yuan, G. Kaptay, Thermodynamic description of             to the Ministry of Economy, Trade and Industry (METI), Japan, 2004.
+     the Al–Mg–Si system using a new formulation for the temperature depen-                [44] Y.Q. Wang, Y.Q. Wu, X.F. Bian, Composition dependence of viscosity for Al
+     dence of the excess Gibbs energy, Thermochim. Acta 527 (2012) 131–142.                     (1  x)Mgx(0 r xr 0.10) alloys, Chin. Sci. Bull. 52 (2007) 1441–1445.
+[19] E. Povoden-Karadeniz, P. Lang, P. Warczok, A. Falahati, W. Jun, E. Kozeschnik,        [45] M.F. Culpin, The viscosity of liquid magnesium and liquid calcium, Proc. Phys.
+     CALPHAD modeling of metastable phases in the Al–Mg–Si system, CALPHAD                      Soc. B 70 (1957) 1079–1086.
+     43 (2013) 94–104.                                                                     [46] Y. Satoa, Y. Kamedaa, T. Nagasawaa, T. Sakamotoa, S. Moriguchia,
+[20] L.J. Zhang, Y. Du, I. Steinbach, Q. Chen, B.Y. Chen, Diffusivities of an Al–Fe–Ni          T. Yamamuraa, Y. Wasedab, Viscosity of molten silicon and the factors affecting
+     melt and their effects on the microstructure during solidiﬁcation, Acta Mater.             measurement, J. Cryst. Growth 249 (2003) 404–415.
+     58 (2010) 3664–3675.                                                                  [47] H. Sasaki, E. Tokizaki, X.M. Huang, K. Terashima, S. Kimura, Temperature de-
+[21] S.Q. Wang, D.D. Liu, Y. Du, L.J. Zhang, Q. Chen, A. Engström, Development of an            pendence of the viscosity of molten silicon measured by the oscillating cup
+     atomic mobility database for liquid phase in multicomponent Al alloys: fo-                 method, Jpn. J. Appl. Phys. 34 (1995) 3432–3436.
+     cusing on binary systems, Int. J. Mater. Res. 104 (2013) 721–735.                     [48] K. Kakimoto, M. Eguchi, H. Watanabe, T. Hibiya, Natural and forced convection
+[22] W.M. Chen, L.J. Zhang, Y. Du, B.Y. Huang, Viscosity and diffusivity in melts:              of molten silicon during Czochralski single crystal growth, J. Cryst. Growth 94
+     from unary to multicomponent systems, Philos. Mag. 94 (2014) 1552–1577.                    (1989) 412–420.
+[23] W. Sutherland, A dynamical theory of diffusion for non-electrolytes and the           [49] V.M. Glazov, S.N. Chizhevskaya, N.N. Glagoleva, Liquid Semiconductors, Ple-
+     molecular mass of albumin, Philos. Mag. 9 (1905) 781–785.                                  num Press, New York, 1969.
+[24] G. Kaptay, A new theoretical equation for temperature dependent self-diffu-           [50] W.R.D. Jones, W.L. Bartlett, The viscosity of aluminum and binary aluminum
+     sion coefﬁcient of pure liquid metals, Int. J. Mater. Res. 99 (2008) 14–17.                alloys, J. Inst. Met. 81 (1952-53) 145–152.
+[25] Y. Du, Y.A. Chang, B.Y. Huang, W.P. Gong, Z.P. Jin, H.H. Xu, Z.H. Yuan, Y. Liu, Y.    [51] G.B. Mi, P.J. Li, A.V. Ohapkin, N. Yu Konstantinova, A.A. Sabirzianov, P.S. Popel,
+     H. He, F.Y. Xie, Diffusion coefﬁcients of some solutes in fcc and liquid Al:               Relationship between liquid structure and property II—Kinematic viscosity of
+     critical evaluation and correlation, Mater. Sci. Eng. A 363 (2003) 140–151.                Mg–Al melt and its relationship with microstructure, Acta Phys. Sin. 60 (2011)
+[26] J. Horbach, S.K. Das, A. Griesche, M.P. Macht, G. Grohberg, A. Meyer, Self-dif-            056601-1–056601-10.
+     fusion and interdiffusion in Al80Ni20 melts: simulation and experiment, Phys.         [52] G.B. Mi, A.V. Okhapkin, N. Yu Konstantinova, A.A. Sabirzyanov, P.S. Popel,
+     Rev. B 75 (2007) 174304.                                                                   L. Pytsze, Kinematic viscosity of Mg–Al melts in the magnesium rich portion,
+[27] J.O. Andersson, J. Ågren, Models for numerical treatment of multicomponent                 Russ. Metall. 2013 (2013) 90–95.
+     diffusion in simple phases, J. Appl. Phys. 72 (1992) 1350–1355.                       [53] H.R. Geng, R. Wang, Z.X. Yang, J.H. Chen, C.J. Sun, Y. Wang, , Temperature
+[28] J. Ågren, Calculation of phase diagrams: CALPHAD, Curr. Opin. Solid State                  dependence of viscosity of Al–Si alloy melts, Acta Metall. Sin. 18 (2005)
+     Mater. Sci. 1 (1996) 355–360.                                                              159–163.
+[29] F. Demmel, D. Szubrin, W.-C. Pilgrim, C. Morkel, Diffusion in liquid aluminium        [54] L. Moraru, Viscosity of eutectic silumin alloy in ultrasonic ﬁled and estimation
+     probed by quasielastic neutron scattering, Phys. Rev. B 84 (2011) 014307.                  of melting temperature, Indian J. Pure Appl. Phys. 45 (2007) 733–737.
+[30] F. Kargl, H. Weis, T. Unruh, A. Meyer, Self diffusion in liquid aluminium, J. Phys.   [55] X.G. Song, X.F. Bian, J.X. Zhang, J. Zhang, Temperature-dependent viscosities of
+     Conf. Ser. 340 (2012) 012077.                                                              eutectic Al–Si alloys modiﬁed with Sr and P, J. Alloy. Compd. 479 (2009)
+[31] M. Petrescu, Liquid state atomic mobility of silicon in the unmodiﬁed eutectic             670–673.
+     silumin, Z. Metallkd 61 (1970) 14–18.                                                 [56] J.-O. Andersson, A. Fernandez Guillermet, P. Gustafson, M. Hillert, B. Jansson,
+[32] D.D. Liu, L.J. Zhang, Y. Du, S.L. Cui, W.Q. Jie, Z.P. Jin, Development of an atomic        B. Jönsson, B. Sundman, J. Ågren, A new method of describing lattice stabi-
+     mobility database for disordered and ordered fcc phases in multicomponent                  lities, CALPHAD 11 (1987) 93–98.
+     Al alloys: focusing on binary systems, Int. J. Mater. Res. 104 (2013) 135–148.        [57] Q.G. Wang, C.J. Davidson, Solidiﬁcation and precipitation behavior of Al–Si–Mg
+[33] S.-I. Fujikawa, Tracer diffusion of magnesium in Pseudo-binary Al-Mg2Si al-                casting alloys, J. Mater. Sci. 36 (2001) 739–750.
+     loys, Defect Diffus. Forum 143-147 (1997) 403–408.                                    [58] J. van de Langkruis, N.C.W. Kuijpers, W.H. Kool, F.J. Vermolen, S. van der Zwaag,
+[34] E. Gebhardt, M. Becker, S. Dorner, Effect of alloying additions on the viscosity           Modelling Mg2Si dissolution in an AA6063 alloy during pre-heating to the
+     of aluminum, Aluminium 31 (1955) 315–321.                                                  extrusion temperature, Proc. Int. Alum. Extrus. Technol. Seminar 1 (2000)
+[35] E. Rothwell, Sn, Pb, Bi and Al, J. Inst. Met. 90 (1961-1962) 389-39.                       119–124.
+[36] F. Lihl, E. Nachitgall, A. Schwaiger, Viscosity measurements on binary alumi-
+     num alloys containing silicon, zinc, copper, and magnesium, Z. Metallkd 59
+

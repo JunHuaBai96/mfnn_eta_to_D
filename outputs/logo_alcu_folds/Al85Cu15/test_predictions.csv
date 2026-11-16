@@ -1,0 +1,2 @@
+sample_id,system,fidelity,diff_type,diff_species,solvent_species,T_K,x_Al,x_Cu,x_Ce,x_Ni,x_Ag,x_Mg,x_Si,eta_Pas,D_m2s,comp_group,is_placeholder,y_true_log10D,D_true,pred_LF_only_log10D,pred_LF_only_D,pred_HF_only_log10D,pred_HF_only_D,pred_MFNN_log10D,pred_MFNN_D
+R027,Al-Cu,HF,inter,Cu,Al,983.0,0.85,0.15,0.0,0.0,0.0,0.0,0.0,0.0020680193829758,7.2e-09,Al85Cu15,0,-8.142667503568731,7.200000000000008e-09,-7.973166465759277,1.0637352086905591e-08,-8.190150260925293,6.454308786939675e-09,-8.156377792358398,6.976252764784506e-09

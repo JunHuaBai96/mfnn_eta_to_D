@@ -1,0 +1,2 @@
+sample_id,system,fidelity,diff_type,diff_species,solvent_species,T_K,x_Al,x_Cu,x_Ce,x_Ni,x_Ag,x_Mg,x_Si,eta_Pas,D_m2s,comp_group,is_placeholder,comp_group_base,y_true_log10D,D_true,pred_LF_only_log10D,pred_LF_only_D,pred_HF_only_log10D,pred_HF_only_D,pred_MFNN_log10D,pred_MFNN_D
+R328,Al-Cu,HF,interdiffusivity,Cu,Al,1023.0,0.87,0.13,0.0,0.0,0.0,0.0,0.0,0.0020339877247404,1.15e-08,Al87Cu13_inter,0,Al87Cu13,-7.939302159646388,1.1500000000000004e-08,-7.899612903594971,1.2600480204572573e-08,-8.213648796081543,6.114362794319515e-09,-8.175284385681152,6.679064143730926e-09

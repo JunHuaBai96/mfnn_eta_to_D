@@ -1,0 +1,39 @@
+\documentclass[11pt]{letter}
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+
+\signature{Yuwen Cui\\Corresponding author\\Tech Institute for Advanced Materials \& College of Materials Science and Engineering,\\Nanjing Tech University, Nanjing 211816, China\\Email: ycui@njtech.edu.cn}
+\address{Yuwen Cui\\Tech Institute for Advanced Materials \& College of Materials Science and Engineering,\\Nanjing Tech University, Nanjing 211816, China\\Email: ycui@njtech.edu.cn\\On behalf of: Junhua Bai, Guanglong Xu, Fuwen Chen, Yuwen Cui}
+
+\begin{document}
+\begin{letter}{The Editors\\Journal of Computational Physics\\Elsevier}
+
+\opening{Dear Editors,}
+
+Please find enclosed our manuscript entitled
+\textit{Residual multi-fidelity neural network correction of a Sutherland-type $\eta\to D$ map for Al-dominated liquid alloys}
+for consideration in \textit{Journal of Computational Physics}.
+
+Liquid diffusivities in multicomponent melts are scarce relative to viscosity, while classical Stokes--Einstein / Sutherland maps leave systematic residuals against experiment. We submit a residual multi-fidelity neural network (MFNN) that corrects a modified Sutherland $\eta\to D$ prior toward high-fidelity experimental diffusivities for Al-dominated liquid alloys. The residual formulation follows Lu et~al.\ (\textit{Proc.\ Natl.\ Acad.\ Sci.\ U.S.A.}\ 117, 7052, 2020) and extends the composite multi-fidelity network of Meng and Karniadakis (\textit{J.\ Comput.\ Phys.}\ 401, 109020, 2020). This work uses only that multi-fidelity regression idea; it is physics-guided and does \textbf{not} employ PDE-residual PINN training or Meng's parallel-in-time PPINN framework.
+
+\textbf{Primary contributions.}
+\begin{enumerate}
+\item \textbf{Physics-guided residual multi-fidelity learning for $\eta\to D$.}
+Under within-composition temperature hold-out (Protocol~W; five seeds; $n_{\mathrm{test}}=15$), the residual MFNN attains MAPE $26.18\pm 1.33\%$, Factor2 $0.96\pm 0.033$, and $R^2=0.392\pm 0.094$, improving continuous accuracy and compressing seed-to-seed MAPE standard deviation by $\sim 70\%$ relative to HF-only (MAPE $30.98\pm 4.43\%$, Factor2 $0.973\pm 0.033$, $R^2=0.263\pm 0.076$), while far exceeding the LF-only network trained on Sutherland-generated $\log_{10} D_{\mathrm{LF}}$ targets (MAPE $109.6\pm 13.13\%$, $R^2=-2.588\pm 0.399$).
+\item \textbf{Strict data provenance without synthetic leakage.}
+We enforce pairing exclusively with measured or recommended viscosity correlations, explicitly excluding empirical Kozlov alloy viscosity fills that would otherwise introduce silent target leakage.
+\item \textbf{Thermodynamic diagnosis of composition-transfer boundaries.}
+Through modality-stratified leave-one-composition-out (LOGO) benchmarks within Al--Cu ($\mathrm{MAPE}=39.43\pm 39.71\%$), we isolate why interdiffusivity folds recover once diffusion modalities are encoded whereas tracer folds remain bounded by a $\sim 3\times$ thermodynamic scale offset (Darken factor) and neighborhood sparsity.
+\end{enumerate}
+
+All data tables, training scripts, and multi-seed evaluation protocols are provided to ensure full reproducibility. This manuscript is original, has not been published previously, and is not under consideration elsewhere. All authors have approved the manuscript and declare no competing interests. This research did not receive any specific grant from funding agencies in the public, commercial, or not-for-profit sectors.
+
+Suggested topical fit: multi-fidelity / scientific machine learning; computational materials transport.
+
+Thank you for your consideration.
+
+\closing{Sincerely,}
+
+\end{letter}
+\end{document}

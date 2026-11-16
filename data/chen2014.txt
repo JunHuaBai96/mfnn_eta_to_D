@@ -1,0 +1,1134 @@
+This article was downloaded by: [University of Strathclyde]
+On: 26 April 2014, At: 05:28
+Publisher: Taylor & Francis
+Informa Ltd Registered in England and Wales Registered Number: 1072954 Registered
+office: Mortimer House, 37-41 Mortimer Street, London W1T 3JH, UK
+
+
+
+                                 Philosophical Magazine
+                                 Publication details, including instructions for authors and
+                                 subscription information:
+                                 http://www.tandfonline.com/loi/tphm20
+
+                                 Viscosity and diffusivity in melts: from
+                                 unary to multicomponent systems
+                                              ab             ab         ab                    a
+                                 Weimin Chen , Lijun Zhang , Yong Du         & Baiyun Huang
+                                 a
+                                  State Key Laboratory of Powder Metallurgy, Central South
+                                 University, Changsha, Hunan 410083, P.R. China
+                                 b
+                                   Sino-German Cooperation Group “Microstructure in Al Alloys”
+Click for updates                (Sino-German Center for Research Promotion), Changsha 410083,
+                                 P.R. China
+                                 Published online: 07 Apr 2014.
+
+
+To cite this article: Weimin Chen, Lijun Zhang, Yong Du & Baiyun Huang (2014): Viscosity and
+diffusivity in melts: from unary to multicomponent systems, Philosophical Magazine, DOI:
+10.1080/14786435.2014.890755
+
+To link to this article: http://dx.doi.org/10.1080/14786435.2014.890755
+
+
+
+PLEASE SCROLL DOWN FOR ARTICLE
+
+Taylor & Francis makes every effort to ensure the accuracy of all the information (the
+“Content”) contained in the publications on our platform. However, Taylor & Francis,
+our agents, and our licensors make no representations or warranties whatsoever as to
+the accuracy, completeness, or suitability for any purpose of the Content. Any opinions
+and views expressed in this publication are the opinions and views of the authors,
+and are not the views of or endorsed by Taylor & Francis. The accuracy of the Content
+should not be relied upon and should be independently verified with primary sources
+of information. Taylor and Francis shall not be liable for any losses, actions, claims,
+proceedings, demands, costs, expenses, damages, and other liabilities whatsoever or
+howsoever caused arising directly or indirectly in connection with, in relation to or arising
+out of the use of the Content.
+
+This article may be used for research, teaching, and private study purposes. Any
+substantial or systematic reproduction, redistribution, reselling, loan, sub-licensing,
+systematic supply, or distribution in any form to anyone is expressly forbidden. Terms &
+Conditions of access and use can be found at http://www.tandfonline.com/page/terms-
+and-conditions
+                                                                   Philosophical Magazine, 2014
+                                                                   http://dx.doi.org/10.1080/14786435.2014.890755
+
+
+
+
+                                                                      Viscosity and diffusivity in melts: from unary to multicomponent
+                                                                                                    systems
+                                                                                 Weimin Chena,b, Lijun Zhanga,b*, Yong Dua,b* and Baiyun Huanga
+                                                                       a
+                                                                           State Key Laboratory of Powder Metallurgy, Central South University, Changsha, Hunan
+                                                                            410083, P.R. China; bSino-German Cooperation Group “Microstructure in Al Alloys”
+                                                                                (Sino-German Center for Research Promotion), Changsha 410083, P.R. China
+                                                                                             (Received 6 October 2013; accepted 29 January 2014)
+Downloaded by [University of Strathclyde] at 05:28 26 April 2014
+
+
+
+
+                                                                               Viscosity and diffusivity, two important transport coefﬁcients, are systemati-
+                                                                               cally investigated from unary melt to binary to multicomponent melts in the
+                                                                               present work. By coupling with Kaptay’s viscosity equation of pure liquid
+                                                                               metals and effective radii of diffusion species, the Sutherland equation is
+                                                                               modiﬁed by taking the size effect into account, and further derived into an
+                                                                               Arrhenius formula for the convenient usage. Its reliability for predicting
+                                                                               self-diffusivity and impurity diffusivity in unary liquids is then validated by
+                                                                               comparing the calculated self-diffusivities and impurity diffusivities in liquid
+                                                                               Al- and Fe-based alloys with the experimental and the assessed data. More-
+                                                                               over, the Kozlov model was chosen among various viscosity models as the
+                                                                               most reliable one to reproduce the experimental viscosities in binary and
+                                                                               multicomponent melts. Based on the reliable viscosities calculated from the
+                                                                               Kozlov model, the modiﬁed Sutherland equation is utilized to predict the tra-
+                                                                               cer diffusivities in binary and multicomponent melts, and validated in Al–Cu,
+                                                                               Al–Ni and Al–Ce–Ni melts. Comprehensive comparisons between the
+                                                                               calculated results and the literature data indicate that the experimental tracer
+                                                                               diffusivities and the theoretical ones can be well reproduced by the present
+                                                                               calculations. In addition, the vacancy-wind factor in binary liquid Al–Ni
+                                                                               alloys with the increasing temperature is also discussed. What’s more, the
+                                                                               calculated inter-diffusivities in liquid Al–Cu, Al–Ni and Al–Ag–Cu alloys are
+                                                                               also in excellent agreement with the measured and theoretical data. Compari-
+                                                                               sons between the simulated concentration proﬁles and the measured ones in
+                                                                               Al–Cu, Al–Ce–Ni and Al–Ag–Cu melts are further used to validate the
+                                                                               present calculation method.
+                                                                               Keywords: transport properties; diffusion; liquids; Sutherland equation
+
+
+                                                                   1. Introduction
+                                                                   Viscosity and diffusivity in melts, as two important transport coefﬁcients, are key
+                                                                   parameters which largely inﬂuence the structure/microstructure evolution during casting
+                                                                   and crystal growth [1,2]. Moreover, viscosity and diffusivity are also in close relation-
+                                                                   ship with the kinetic fragility and the glass-forming ability of liquids in a wide variety
+                                                                   of materials (i.e. metallic alloys, organic and inorganic compounds, colloids) [3].
+
+                                                                   *Corresponding authors. Email: lijun.zhang@csu.edu.cn (L. Zhang); yongducalphad@gmail.com
+                                                                   (Y. Du)
+
+                                                                   © 2014 Taylor & Francis
+                                                                   2                                      W. Chen et al.
+
+                                                                   However, reliable experimental information on viscosity and diffusivity of metallic
+                                                                   liquid is scarce due to the effects of buoyancy-driven convective ﬂow and chemical
+                                                                   reactions between melts and containers [4,5]. The absence of such experimental viscos-
+                                                                   ity and diffusivity in metallic liquid leads to the fact that various experimental phenom-
+                                                                   ena involving liquid cannot be well theoretically analysed. As a consequence, reliable
+                                                                   theoretical data of viscosity and different diffusivities in liquid metals [6–8] are of
+                                                                   merit.
+                                                                        Numerous theoretical and semi-theoretical studies on viscosity and diffusivity in
+                                                                   metallic liquid have been conducted over the past century [8–14]. With the rapid
+                                                                   development of computational technology, molecular dynamic (MD) simulations based
+                                                                   on the embedded atom method [15–19] and ﬁrst-principles (FP) calculations [20,21]
+                                                                   are commonly used to predict the viscosity and diffusivities in liquids. However, even
+                                                                   though MD is capable of revealing microscopic mechanism, it still cannot determine
+Downloaded by [University of Strathclyde] at 05:28 26 April 2014
+
+
+
+
+                                                                   the accurate absolute values of diffusivities [22]. As for the FP calculations, accurate
+                                                                   diffusivities could be obtained but the computation is rather expensive, especially for
+                                                                   the calculation of prefactor in the Arrhenius equation. In addition to MD and FP cal-
+                                                                   culations, there also exist some semi-theoretical models [11,13] which are less
+                                                                   computation-intensive. The empirical parameters of these models are based on the
+                                                                   scattered data in the literature [23]. Thus, the diffusivities predicated from those mod-
+                                                                   els usually show a large deviation from the recent experimental data [22]. However,
+                                                                   the Stokes–Einstein equation [9] is an exceptional one among various semi-theoretical
+                                                                   models, and is widely used for viscosity/diffusivity prediction. Strictly speaking, the
+                                                                   Stokes–Einstein relation is only valid when the solute atom is larger than the solvent
+                                                                   one. When the solute atom is smaller than/equal to the solvent one, the
+                                                                   Sutherland–Einstein equation is much more suitable. That is because the size effect is
+                                                                   considered in the Sutherland equation [8].
+                                                                        Moreover, viscosity corresponds to the mobility in the melts and can be further
+                                                                   related to the diffusivity via Einstein’s relation. Once the accurate tracer diffusivity is
+                                                                   obtained, the reliable viscosity can be predicted by the Stokes–Einstein or Sutherland–
+                                                                   Einstein relation. In reverse, the tracer diffusivity can be also obtained if the viscosity is
+                                                                   known.
+                                                                        Consequently, in the current work, a systematic study on the viscosity and
+                                                                   diffusivity in metallic melts has been performed, aiming at establishing a universal and
+                                                                   effective approach to evaluate reliable concentration- and temperature-dependent viscos-
+                                                                   ities and diffusivities in liquids from unary to multicomponent systems. Firstly, based
+                                                                   on Kaptay’s viscosity equation, a modiﬁed Sutherland equation, in which the size effect
+                                                                   is taken into account, has been proposed and derived in an Arrhenius formula for pre-
+                                                                   dicting the reliable diffusivity in pure liquids. Then, various models for calculation of
+                                                                   viscosities in binary and multicomponent melts are critically reviewed. The most reli-
+                                                                   able model for viscosity prediction has been proposed. Tracer diffusivities have been
+                                                                   obtained on the basis of the reliable viscosities via the modiﬁed Sutherland equation.
+                                                                   After that, the chemical diffusivities in binary and multicomponent melts are further
+                                                                   obtained from the calculated tracer diffusivity. Finally, the presently calculated chemical
+                                                                   diffusivities are validated by comparing the model-predicted concentration proﬁles in
+                                                                   binary and multicomponent liquid diffusion couples with the available experimental
+                                                                   ones.
+                                                                                                   Philosophical Magazine                                  3
+
+                                                                   2. Models
+                                                                   2.1. Models for viscosity and diffusivities in unary melts
+                                                                   The viscosity of pure liquid metal i, ηi, can be expressed as [24–26],
+                                                                                                                          a2
+                                                                                                      log10 ðgi Þ ¼ a1 þ                                (1)
+                                                                                                                          T
+                                                                   where T is the absolute temperature, and the parameters a1 and a2 can be obtained by
+                                                                   assessing the reliable experimental viscosity data. Recently, Assael et al. [24–26] have
+                                                                   reported the parameters a1 and a2 for some metals. Though Equation (1) can provide
+                                                                   the accurate values, it has been only applied to few metallic elements due to lack of the
+                                                                   measured viscosities. For the dynamic viscosity ηi of any pure liquid metals, Kaptay
+                                                                   [27] derived a uniﬁed formula by combing the Andrade equation [28] with the activa-
+                                                                   tion energy model,
+Downloaded by [University of Strathclyde] at 05:28 26 April 2014
+
+
+
+
+                                                                                                            1=2                 
+                                                                                                         Mi                  Tim
+                                                                                                 gi ¼ C1 2=3 T exp C2
+                                                                                                                  1=2
+                                                                                                                                                        (2a)
+                                                                                                         Vi                   T
+
+                                                                   Here, Mi, Vi and Tim are the atomic mass, the absolute molar volume and the melting
+                                                                   point under one atmospheric pressure of the given metal i, respectively. The constants
+                                                                   C1 and C2 were found to be (1.80 ± 0.39) × 10−8 (J K−1 mol−1/3)1/2 and (2.34 ± 0.20),
+                                                                   respectively. In the dilute molten metallic alloy, the viscosity of the solvent B can be
+                                                                   simply assumed to be that of pure liquid B. According to Taylor’s formula, the
+                                                                   Arrhenius formula of Kaptay’s viscosity model can also be expressed as,
+                                                                                                                                 
+                                                                                              C1  ðe  Tim  Mi Þ1=2            1 Tim
+                                                                                         gi ¼            2=3
+                                                                                                                       exp C2                        (2b)
+                                                                                                       V                         2 T
+                                                                                                      i
+
+                                                                   where e is a mathematical constant that is the base of the natural logarithm.
+                                                                       Based on an empirically modiﬁed form of Stokes law, Sutherland [8] derived a dif-
+                                                                   fusion equation which relates the diffusivity to the viscosity of the liquid metal:
+                                                                                                                          !
+                                                                                                            kT 1 þ br
+                                                                                                                       3g
+                                                                                                     D¼                                                (3)
+                                                                                                           6pgr 1 þ 2g br
+
+                                                                   where k is the Boltzmann constant, r the radius of the diffusing unit and β the coefﬁ-
+                                                                   cient of sliding friction between the diffusing particle and the medium. When a larger
+                                                                   solute atom moves among smaller solvent atoms slipping, β becomes inﬁnite. In this
+                                                                   case, the Sutherland formula holds with stick hydro-dynamic boundary conditions at the
+                                                                   solute surface, and it arrives at the Stokes–Einstein formula for colloidal solutions from
+                                                                   consideration of the Brownian movement [9]:
+                                                                                                                 kT
+                                                                                                          D¼                                              (4)
+                                                                                                                6pgr
+                                                                   In the other extreme case where a smaller solute atom moves among solvent atoms with
+                                                                   equal or larger size, the smaller solute atoms can travel a good deal in the gaps between
+                                                                   larger solvent atoms. In this case, β is equal to 0 and the Sutherland formula holds with
+                                                                   slip boundary conditions and takes the following form:
+                                                                   4                                         W. Chen et al.
+
+                                                                                                                     kT
+                                                                                                               D¼                                           (5)
+                                                                                                                    4pgr
+                                                                   Equation (5) is the so-called Sutherland–Einstein equation. Moreover, the case that the
+                                                                   melting temperature of solute A (TAm ) is lower than that of solvent B (TBm ) is similar to
+                                                                   the one where a smaller solute atom moves among solvent atoms with equal or larger
+                                                                   size, and β is thus regarded to be 0.
+                                                                       According to Equations (3)–(5), the Sutherland–Einstein equation for the
+                                                                   self-diffusivity of a pure liquid metal B, DBB, can be written as
+                                                                                                                          !
+                                                                                                        kT     1 þ b3gBrB      kT
+                                                                                               DBB ¼                BB
+                                                                                                                    2g
+                                                                                                                            ¼                              (6)
+                                                                                                      6pgB rB 1 þ b r  B      4pgrB
+                                                                                                                         BB B
+
+
+                                                                   where rB is the atomic radius of the element B.
+Downloaded by [University of Strathclyde] at 05:28 26 April 2014
+
+
+
+
+                                                                       As for the impurity diffusivity of solute A in solvent B, DAB, the size effect is an
+                                                                   important factor. According to Ref. [29], DAB is reported to be inversely proportional to
+                                                                   the size of the diffusing species, and thus can be expressed as,
+                                                                                                                                   !
+                                                                                                      rB          kT    1 þ b3gBrB
+                                                                                              DAB ¼ DBB ¼                    AB
+                                                                                                                                                         (7)
+                                                                                                      rA        6pgB rA 1 þ b2gBr
+                                                                                                                                 AB B
+
+                                                                   where rA is the atomic radius of the solute A.
+                                                                       In order to predict the self-diffusivity and impurity diffusivity in melts using
+                                                                   Equations (6) and (7) based on the reliable temperature-dependent viscosity model, the
+                                                                   effective radius is also needed. The temperature-dependent radius of the hard spheres
+                                                                   ri(T) can be expressed as [12]:
+                                                                                                                                        
+                                                                                                      3  f  Vim  ½1 þ ai  ðT  Tim Þ 1=3
+                                                                                          ri ðT Þ ¼                                                   (8)
+                                                                                                                   4  p  NA
+                                                                   where the volume-packing fraction f is approximately 0.45, Vim is the molar volume of
+                                                                   the diffusing specie i at the melting point Tim , αi is the thermal expansion coefﬁcient of
+                                                                   the pure metal i, π is the constant and NA is the Avogadro number.
+                                                                       By inserting Equations (2) and (8) into Equations (6) and (7), one can obtain the
+                                                                   equations for self-diffusivity and impurity diffusivity:
+                                                                                                                                                         
+                                                                              1:9517  1016  ðVBm Þ1=3  ½1 þ aB  ðT  TBm Þ1=3  T 1=2           TBm
+                                                                       DBB ¼                                  1=2
+                                                                                                                                             exp C2       (9)
+                                                                                                      C1  M   B
+                                                                                                                                                       T
+
+                                                                                         1:3011  1016  ðVBm Þ2=3  T 1=2  ½1 þ aB ðT  TBm Þ2=3
+                                                                                 DAB ¼                 1=2
+                                                                                               C1  MB  ðVAm Þ1=3  ½1 þ aA ðT  TAm Þ1=3
+                                                                                                                    !
+                                                                                                     TBm   1 þ b3gBrB
+                                                                                          exp C2              AB
+                                                                                                                                                          (10)
+                                                                                                      T    1 þ b2gBrB
+                                                                                                                    AB
+
+
+                                                                      A ﬁrst glance on Equations (9) and (10) reveals that these equations are not as
+                                                                   simple as the Arrhenius equation, which is commonly employed to describe
+                                                                   temperature-dependent self-diffusivity and impurity diffusivity. In fact, by considering
+                                                                                                         Philosophical Magazine                                                                        5
+
+                                                                   only the zero and ﬁrst orders of the Taylor series for Equations (9) and (10) around the
+                                                                   melting temperature, one can approximate Equations (9) and (10) by simple Arrhenius
+                                                                   equations,                                             
+                                                                                                                       QBB
+                                                                                                  DBB ¼ D0BB  exp                                    (11)
+                                                                                                                       RT
+                                                                                                                                                            
+                                                                                                                                                 QAB
+                                                                                                        DAB ¼ D0AB  exp                                                                            (12)
+                                                                                                                                                 RT
+                                                                   with
+                                                                                                                                           aB                     pﬃﬃﬃﬃﬃﬃ
+                                                                                                       3:2178  1016  e 3 TB ðVBm Þ1=3
+                                                                                                                                                    m
+                                                                                                                                                                   TBm
+                                                                                           DBB ¼
+                                                                                             0
+                                                                                                                                           1=2
+                                                                                                                                                                                                     (13)
+                                                                                                                                  C1 MB
+                                                                                                                 
+Downloaded by [University of Strathclyde] at 05:28 26 April 2014
+
+
+
+
+                                                                                                           1 aB m
+                                                                                                 QBB ¼ C2 þ þ  TB  R  TBm                                                                         (14)
+                                                                                                           2 3
+                                                                                                                                              
+                                                                                                                 2aB 
+                                                                                                                                aA
+                                                                                                                                                   TBm =3               pﬃﬃﬃﬃﬃﬃ                  !
+                                                                                    2:1452  10   16
+                                                                                                        e                    ð
+                                                                                                                         1þaA  T m T m
+                                                                                                                                 B    A    Þ                ðVBm Þ2=3    TBm          1 þ 3g B
+                                                                                                                                                                                          brB
+                                                                           D0AB ¼                                                                                                                   (15)
+                                                                                                 1=2
+                                                                                          C1 MB ðVAm Þ1=3 ½1 þ aA  ðTBm  TAm Þ1=3                                                  1 þ 2g
+                                                                                                                                                                                          brB
+                                                                                                                                                                                             B
+
+
+
+                                                                                                                             
+                                                                                              1 2       1       aA TBm
+                                                                                    QAB ¼ C2 þ þ aB TB  
+                                                                                                     m
+                                                                                                                                 R  TBm                                                            (16)
+                                                                                              2 3       3 1 þ aA ðTBm  TAm Þ
+                                                                   where R is the ideal gas constant. For DAB, if TAm \TBm or rA =rB 6 1:01 when TAm > TBm ,
+                                                                   βAB is equal to 0. Here, 0.01 is introduced to allow a small difference for the radius of
+                                                                   solute A and solvent B atoms. If rA/rB > 1.01 when TAm > TBm , βAB approaches to inﬁnite.
+
+
+                                                                   2.2. Models for viscosity and diffusivities in binary and multicomponent melts
+                                                                   2.2.1. Models for viscosity in binary and multicomponent melts
+                                                                   Kozlov et al. [11] derived the concentration-dependent viscosity of binary and multi-
+                                                                   component liquid alloys by taking the atomic vibration frequencies into account. The
+                                                                   viscosity η in binary and multicomponent liquid alloys can be expressed as,
+                                                                                                                    X
+                                                                                                                    N
+                                                                                                                                                    DHmix
+                                                                                                        ln g ¼                xi ln gi                                                              (17)
+                                                                                                                     i¼1
+                                                                                                                                                     3RT
+
+                                                                   where xi is the mole fraction and ΔHmix is the mixing enthalpy of the alloy that can be
+                                                                   obtained, for example, from the reliable CALculation of PHAse Diagram (CALPHAD)
+                                                                   thermodynamic database [30].
+                                                                       Considering the theoretical relationship between the cohesion energy of the alloy
+                                                                   and the activation energy of viscous ﬂow, Kaptay [31] predicted the viscosity in the
+                                                                   binary and multicomponent melts, and his formula is given by,
+                                                                                                            P                                      
+                                                                                         h  NAv                 xi  EAi  ð0:155  0:015Þ  DHmix
+                                                                               g¼P                     exp    i
+                                                                                                                                                      (18)
+                                                                                     i xi  Vi þ DV                            RT
+                                                                                                    E
+                                                                   6                                      W. Chen et al.
+
+                                                                   where h is the Planck constant, NAv is the Avogadro number, ΔVE and EAi are the excess
+                                                                   molar volume and the activation enthalpy of the viscous ﬂow in pure component i,
+                                                                   respectively. ΔVE can be neglected and EAi can be obtained from the Arrhenius form of
+                                                                   viscosity in pure liquid metal i.
+                                                                       Based on the uniﬁed formula [27], the concentration-dependent viscosity of binary
+                                                                   and multicomponent liquid alloys was modiﬁed by Budai et al. [32] as,
+                                                                                           P                                                      
+                                                                                          ð xi  Mi Þ1=2                      C2 X               DH
+                                                                             g ¼ C1  P i                      T 1=2
+                                                                                                                       exp        x i  Tm;i        (19)
+                                                                                      ð i xi  Vi þ DV E Þ2=3                 T                  qR
+                                                                   where the semi-empirical parameter q is (25.4 ± 2) and the constants C1 and C2 are the
+                                                                   same as the values in the unary system [27].
+                                                                       Very recently, Schick et al. [14] developed a new Arrhenius-type model to describe
+                                                                   the viscosities of liquid alloys,
+Downloaded by [University of Strathclyde] at 05:28 26 April 2014
+
+
+
+
+                                                                                                                    
+                                                                                                                    EA
+                                                                                                      g ¼ g1  exp                                   (20)
+                                                                                                                    RT
+                                                                   The pre-exponential factor η∞ and the activation enthalpy EA can be given by,
+                                                                                                               X
+                                                                                                               N
+                                                                                                     ln g1 ¼            xi lnðxi gi1 Þ                     (21)
+                                                                                                                  i¼1
+
+
+                                                                                                            X
+                                                                                                            N
+                                                                                                     EA ¼         xi EAi  DHmix                           (22)
+                                                                                                            i¼1
+
+                                                                   where gi1 is a pre-exponential factor of pure liquid metal i. In the present work, the
+                                                                   pre-exponential factor and activation enthalpy of pure liquid Ag, Al, Cu and Ni are
+                                                                   obtained using Equation (1) from the assessed parameters in Refs. [24–26] while those
+                                                                   of liquid Ce are predicted by Equation (2(b)).
+
+
+                                                                   2.2.2. Models for diffusivities in binary melts
+                                                                   With the aid of the calculated viscosity and effective radii, the tracer diffusivity of metal
+                                                                   i, Di , in binary liquid alloys can be obtained through Equation (3). Via the introduction
+                                                                   of the vacancy ﬂow effect, the Manning’s formulation in binary alloys [33] reads as,
+                                                                                                 ~ ¼ ðxA  D þ xB  D Þ  U  S
+                                                                                                 D                                                         (23)
+                                                                                                            B         A
+
+                                                                   where the thermodynamic factor Φ can be expressed as,
+                                                                                                    d ln cA     d ln cB xA xB d 2 G
+                                                                                          U¼1þ              ¼1þ         ¼                                 (24)
+                                                                                                    d ln xA     d ln xB   RT dx2
+                                                                   where γi is the activity coefﬁcient of element i and G is the Gibbs free energy which
+                                                                   can be obtained, for example, from the CALPHAD thermodynamic database. The
+                                                                   vacancy-wind factor S can be given by,
+                                                                                                             2xA xB ðDA  DB Þ2
+                                                                                           S ¼1þ                                                           (25)
+                                                                                                    M0 ðxA DB þ xB DA ÞðxA DA þ xB DB Þ
+                                                                                                    Philosophical Magazine                                   7
+
+                                                                   where M0 is a constant related to the crystal structure. The constants M0s for face-centred
+                                                                   cubic, body-centred cubic, simple cubic and diamond structures were reported by
+                                                                   Manning [33], but the constant M0 for the liquid phase has not been reported due to the
+                                                                   uncertainty of the structure and the diffusion mechanism in the melt. In order to avoid
+                                                                   gravity-driven ﬂow, the inter-diffusivities and tracer diffusivities of Ga and Pb in liquid
+                                                                   Ga–Pb alloys were determined by long-capillary (LC) and shear cell (SC) techniques in
+                                                                   microgravity [34], which can be considered as giving reliable results. With the aid of these
+                                                                   measured data and the thermodynamic factor calculated from the thermodynamic parame-
+                                                                   ters [35], the calculated M0 in liquid Ga–Pb alloys is 0.0073 by Equations (23–25). In
+                                                                   view of the fact that the experimental inter-diffusivity is assumed to be of composition-
+                                                                   independence [34], as well as that very limited experimental data were adopted in the pre-
+                                                                   vious assessment [35], M0 in the metallic melts is recommended to be 0.01 in the present
+                                                                   work. More reliable measured diffusivities in metallic liquids are much needed to check
+Downloaded by [University of Strathclyde] at 05:28 26 April 2014
+
+
+
+
+                                                                   the accuracy of the value.
+
+
+                                                                   2.2.3. Models for diffusivities in multicomponent melts
+                                                                   Due to the fact that Stokes–Einstein relation is suitable for the multicomponent system
+                                                                   [36] and that β in the multicomponent melts is difﬁcult to be determined by comparing
+                                                                   the size of diffusing element with those of other elements, the tracer diffusivity of metal
+                                                                   i in multicomponent metallic melts can be obtained via Equation (4). With the known
+                                                                   tracer diffusivity Di , the atomic mobility bi can be obtained via the Einstein relation,
+                                                                                                                   Di
+                                                                                                            bi ¼                                          (26)
+                                                                                                                   RT
+                                                                                                                                               ~ n , can be
+                                                                   The inter-diffusivity with n as dependent species in multicomponent alloys, D kj
+                                                                   written as,
+                                                                                                 X                                        
+                                                                                           ~n ¼                                   @li @li
+                                                                                           D         ðd ik  x k Þ  x i  b i                       (27)
+                                                                                             kj
+                                                                                                   i
+                                                                                                                                   @xj @xn
+                                                                   where the Kronecker delta δik = 1 when i = k and 0 otherwise, and μi is the chemical
+                                                                   potential of species i. Based on the inter-diffusivity, the temporal proﬁle of the diffusing
+                                                                   species k in an n-component system can be given by Fick’s second law:
+
+                                                                                              @ck    X
+                                                                                                     n1
+                                                                                                  ¼r     ~ n rcj
+                                                                                                         D               ðk ¼ 1; :::; nÞ                  (28)
+                                                                                              @t     j¼1
+                                                                                                           kj
+
+
+                                                                   where ck is the concentration in moles per volume and ∇ denotes the divergence
+                                                                   operator.
+
+
+                                                                   3. Results and discussion
+                                                                   3.1. Self-diffusivity and impurity diffusivity in unary system
+                                                                   The viscosities in pure liquid metals have been discussed in detail in Refs. [24–27], and
+                                                                   thus they are not repeated in the present work. The reliability of Equations (11)–(16) for
+                                                                   self-diffusivity and impurity diffusivity is validated by the experimental temperature-
+                                                                   dependent diffusivity in a series of molten metals, including low-melting-temperature
+                                                                   8                                        W. Chen et al.
+
+                                                                   metals (e.g. Sn and Zn), moderate-melting-temperature metals (e.g. Al and Cu) and
+                                                                   high-melting-temperature metals (e.g. Co, Cr, Fe, Mn, Mo, Ni, Ti, V and W)
+                                                                   [4,5,22,23,37–44]. The self-diffusivities for liquid Al, Cu, Mn, Ni and Zn have been
+                                                                   investigated by means of diverse experimental methods (e.g. LC technique, SC technique
+                                                                   and quasi-elastic neutron scattering method) [4,5,22,23,37–41]. With those reported self-
+                                                                   diffusivities, the reliability of Equations (11), (13) and (14) can be validated. As for
+                                                                   Equations (12), (15) and (16), their validation can be done by comparing the calculated
+                                                                   impurity diffusivities with the measured ones for Al, Co, Cr, Mo, Mn, Ni, Ti, V and W
+                                                                   in liquid Fe [42] and Cu, Fe, Ni and Zn in liquid Al [43]. Moreover, the presently modi-
+                                                                   ﬁed Sutherland equation has been already successfully used to predict the self-diffusivity
+                                                                   and impurity diffusivity in liquid solder (low- and moderate-melting points) [45,46] and
+                                                                   cemented carbides (high-melting point) [47].
+                                                                        The comparison between the presently calculated self-diffusivities for liquid Al, Cu,
+Downloaded by [University of Strathclyde] at 05:28 26 April 2014
+
+
+
+
+                                                                   Mn, Ni and Zn and the corresponding measured data available in the literature
+                                                                   [4,5,22,23,37–41] is shown in Figure 1. As it is clearly seen from Figure 1, the calcu-
+                                                                   lated results agree very well with the experimentally measured self-diffusivities
+                                                                   [4,22,38–41]. A closer glance reveals that the calculated self-diffusivities of Al are
+                                                                   slightly lower than the experimental data [5,37]. The probable reason may be due to the
+                                                                   fact that the modiﬁed Enskog model was unreasonable to be adopted in the analysis of
+                                                                   primary experimental data [37], and the incoherent scattering relation was used in the
+                                                                   coherent scattering situation [5]. The thin oxide in the measurements may also result in
+                                                                   the deviations. The scattered results measured by the capillary method [23] are larger
+                                                                   than the calculated ones due to the convective effect [22]. As shown in Figure 1, the
+
+
+
+
+                                                                   Figure 1. (colour online) Calculated self-diffusivities in liquid Al, Cu, Mn, Ni and Zn, compared
+                                                                   with the corresponding measured data available in the literature [4,5,22,23,37–41]. The dotted line
+                                                                   with speciﬁc temperature is the melting point of pure Al, Cu, Mn, Ni or Zn. A constant, M, is
+                                                                   added to separate the self-diffusivities in liquid Al, Cu, Mn, Ni and Zn.
+                                                                                                     Philosophical Magazine                                       9
+
+                                                                   very good agreement between the predictions by the present equations and most of the
+                                                                   available experimental data indicates that the derived Equations (11), (13) and (14) can
+                                                                   nicely predict the reliable self-diffusivities around the melting temperature. In addition,
+                                                                   we can obtain the following relation based on Equations (11) and (13):
+                                                                                                                      1
+                                                                                                            DBB /      1=2
+                                                                                                                                                               (29)
+                                                                                                                     MB
+
+                                                                   Ignoring the tiny difference on the molar volume and the melting temperature of the
+                                                                   isotope, the predicted self-diffusivity ratio between Sn124 and Sn112 is 0.95, which is
+                                                                   very close to the experimental value (0.97) [45]. Thus the isotope effect on the self-dif-
+                                                                   fusivity in liquid can be reasonably explained by the presently modiﬁed Sutherland
+                                                                   equation. The calculated activation enthalpy of self-diffusivities and viscosities for Al,
+Downloaded by [University of Strathclyde] at 05:28 26 April 2014
+
+
+
+
+                                                                   Cu, Mn, Ni and Zn using Equation (14) are compared with the experimental data
+                                                                   [4,5,22–26,37,40,41,48], as presented in Table 1. The presently calculated activation
+                                                                   enthalpies of self-diffusivity in liquid Al, Cu, Ni and Zn agree well with the experimen-
+                                                                   tal data [4,5,22,23,37,40,41] while those of viscosity in molten Al, Cu and Zn are close
+                                                                   to the assessed values [24,25,48]. It is also clearly seen from Table 1 that the calculated
+                                                                   activation enthalpy of self-diffusivity in metallic melts is (2.6–3.1)·R·TM and the differ-
+                                                                   ence of the presently calculated activation enthalpy between self-diffusivity and viscos-
+                                                                   ity is approximately equal to R·TM.
+                                                                       Kubíček and Pepřica [42] collected the reported impurity diffusivities in molten Fe
+                                                                   measured by various experimental methods. The calculated impurity diffusivities of the
+                                                                   small-sized solute elements (Al, Co, Mn, Ni and Ti) and the large-sized ones (Cr, Mo,
+                                                                   V and W) in liquid Fe using the present method are compared with the results calcu-
+                                                                   lated by the method of Su et al. [13] and the experimental data [42] in Table 2. As
+                                                                   shown in Table 2, the calculated impurity diffusivities of Al, Co, Mn, Ni and Ti agree
+                                                                   well with the experimental data [42] and the presently calculated results around the
+                                                                   melting temperature of Fe are close to the results using the method of Su et al. [13].
+                                                                   But it should be noted that the method of Su et al. [13] cannot strictly follow one
+                                                                   simple Arrhenius equation over a wide temperature range. Considering the size effect,
+                                                                   the currently calculated impurity diffusivities of Cr, Mo, V and W in liquid Fe in
+
+
+
+                                                                   Table 1. Comparison of the calculated, the experimental and the assessed activation enthalpy for
+                                                                   self-diffusivity and viscosity in pure liquid Al, Cu, Mn, Ni and Zn.
+
+                                                                                                                     Q (kJ/mol)
+                                                                                                  Self-diffusivity                                 Viscosity
+                                                                   Element      Calculated                 Experimental                 Calculated         Assessed
+                                                                   Al              21.31         27.02 ± 6.75 [5], 26.44 ± 0.39 [37]       13.19          15.38 [24]
+                                                                   Cu              32.53        32.51 ± 0.48 [22], 40.64 ± 2.97 [23]       20.74          26.67 [25]
+                                                                   Mn              36.89                          –                        23.24              –
+                                                                   Ni              42.05                  45.35 ± 2.89 [4]                 26.43          40.36 [26]
+                                                                   Zn              17.48               23.44 [40], 21.31 [41]              11.52          12.08 [48]
+                                                                   10                                             W. Chen et al.
+
+                                                                   Table 2. Comparison of the calculated and the measured impurity diffusivities in liquid Fe.a
+
+                                                                                                                                              D (×10−9 m2/s)
+                                                                                                                                     Calculated
+                                                                                                                                                                    Measured
+                                                                   Solute             Solvent             T (K)              Present              [13]                [42]
+                                                                   Al                 Fe                   1868               3.37                3.78               1.55
+                                                                   Al                 Fe                   1873               3.40                3.81               3.5
+                                                                   Co                 Fe                   1823               3.87                3.83               4.6
+                                                                   Co                 Fe                   1841               3.98                3.94               4.7
+                                                                   Co                 Fe                   1911               4.42                4.38               5.3
+                                                                   Mn                 Fe                   1773               3.22                3.30               3.9
+                                                                   Mn                 Fe                   1823               3.49                3.58               4.37, 4.5
+                                                                   Mn                 Fe                   1833               3.55                3.64               5
+                                                                   Mn                 Fe                   1873               3.77                3.87               4.96
+Downloaded by [University of Strathclyde] at 05:28 26 April 2014
+
+
+
+
+                                                                   Ni                 Fe                   1823               3.88                3.86               4.67, 5.6
+                                                                   Ni                 Fe                   1849               4.04                4.02               4.08
+                                                                   Ni                 Fe                   1873               4.19                4.17               4.83, 5.59
+                                                                   Ni                 Fe                   1923               4.51                4.49               4.91, 5.1
+                                                                   Ti                 Fe                   1823               3.39                3.30               4.34
+                                                                   Ti                 Fe                   1843               3.50                3.41               4.4
+                                                                   Ti                 Fe                   1873               3.67                3.57               5.04
+                                                                   Ti                 Fe                   1923               3.95                3.84               5.4
+                                                                   Cr                 Fe                   1693               2.07                2.95               2.11
+                                                                   Cr                 Fe                   1753               2.31                3.28               2.57
+                                                                   Cr                 Fe                   1823               2.59                3.67               3.04
+                                                                   Cr                 Fe                   1853               2.71                3.85               3.82
+                                                                   Cr                 Fe                   1860               2.74                3.89               4.9
+                                                                   Cr                 Fe                   1873               2.80                3.97               3.42
+                                                                   Mo                 Fe                   1773               2.08                3.01               0.975
+                                                                   Mo                 Fe                   1843               2.34                3.36               0.55
+                                                                   Mo                 Fe                   1873               2.45                3.52               1
+                                                                   V                  Fe                   1723               2.06                2.97               2.7, 2.73
+                                                                   V                  Fe                   1823               2.44                3.51            2, 3.69
+                                                                   W                  Fe                   1803               2.39                3.21               1.5, 2.2
+                                                                   W                  Fe                   1813               2.43                3.26               2.3
+                                                                   W                  Fe                   1843               2.54                3.42               1.2
+                                                                   W                  Fe                   1860               2.61                3.51               2.5
+                                                                   W                  Fe                   1903               2.79                3.74               2.65, 2.7
+                                                                   W                  Fe                   1973               3.08                4.13               3.2
+                                                                   a
+                                                                    Impurity diffusivities in liquid Fe are calculated using the present method and the method of Su et al. [13],
+                                                                   respectively, while the measured data are taken from Ref. [42].
+
+
+                                                                   Table 2 are lower by 33% than the results of Su et al. [13], but agree better with the
+                                                                   measured ones [42]. Du et al. [43] evaluated the impurity diffusivities in liquid Al by
+                                                                   means of the least-square method. Figure 2 shows the impurity diffusivities for Cu, Fe,
+                                                                   Ni and Zn in liquid Al calculated by Equations (12, 15, 16), compared with the
+                                                                   assessed and experimental data [43]. It is shown that the calculated impurity diffusivi-
+                                                                   ties in liquid Al agree reasonably with the assessed results and most of the experimental
+                                                                   ones. Table 3 lists the Arrhenius parameters of several solutes in liquid Al and Fe. It is
+                                                                   clearly seen from Table 3 that the difference in the calculated activation enthalpy for
+                                                                   impurity diffusion of different solutes in liquid Al and Fe is very small while the
+                                                                                                       Philosophical Magazine                                        11
+Downloaded by [University of Strathclyde] at 05:28 26 April 2014
+
+
+
+
+                                                                   Figure 2. (colour online) Calculated impurity diffusivities of Cu, Fe, Ni and Zn in liquid Al,
+                                                                   compared with the corresponding assessed and experimental data [43]. A constant, M, is added to
+                                                                   separate the impurity diffusivities of Cu, Fe, Ni and Zn in liquid Al. Solid lines denote the pres-
+                                                                   ently calculated results. Dotted lines denote the assessed impurity diffusivities in Ref. [43].
+                                                                   Dashed lines denote diffusivities with a factor of 2 or 0.5 from the assessment. If the present data
+                                                                   are within this error range of the assessed diffusivity, one can regard that the present results rea-
+                                                                   sonably reproduce the assessed data.
+
+
+                                                                   calculated pre-frequency factors are severely infected with the size of the solutes. As
+                                                                   already shown in Tables 2, 3 and Figure 2, the reasonable agreement between the pres-
+                                                                   ently predicted results and the literature data suggests that the derived Equations (12),
+                                                                   (15) and (16) can nicely predict the reliable impurity diffusivities around the melting
+                                                                   point of the solvent.
+
+
+                                                                   3.2. Viscosity and diffusivity in binary system
+                                                                   Figure 3 illustrates the viscosities in binary liquid Al–Cu and Al–Ni alloys predicted by
+                                                                   four different theoretical models, compared with the measured data [14,49–55] (Note:
+                                                                   the thermodynamic parameters in liquid Al-based alloys are adopted from [30]). As can
+                                                                   be seen from Figure 3(a), the calculated viscosities via Schick model in the Al–Cu melts
+                                                                   agree best with the measured data [14,49–52]. The calculated viscosities using Kozlov
+                                                                   model in liquid Al-(0–40, 90–100) at.% Cu alloys agree well with the experimental data
+                                                                   [14,49–52], while the calculated results in liquid Al-(50–80) at.% Cu are slightly lower
+                                                                   than the measured ones [14,51,52]. The calculated viscosities by Kaptay model in
+                                                                   Al-rich Al–Cu melts agree with the measured ones [14,49–52], but the calculated data in
+                                                                   liquid Al-(30–80) at.% Cu are lower than the experimental data [14,49,51,52]. The deri-
+                                                                   vations between the predicted results by Budai model and the experimentally measured
+                                                                   ones [14,49–52] are large. The measured data in liquid Al–Cu alloys [14,52] show a
+                                                                   maximum at a mole fraction xCu = 0.7 due to the appearance of the ordered compounds
+                                                                   12                                      W. Chen et al.
+
+                                                                   Table 3. Comparison of the calculated, the assessed and the experimental Arrhenius parameters
+                                                                   in liquid Al and Fe.
+
+                                                                                                     D0 (×10−8 m2/s)                         Q (kJ/mol)
+                                                                   Solute     Solvent      Calculated           Reported        Calculated           Reported
+                                                                   Fe         Al              9.17            23.40 [43]          20.99             35.00 [43]
+                                                                   Mn         Al              8.48             19.3 [43]          20.99             31.00 [43]
+                                                                   Ni         Al              9.32             9.54 [43]          20.91             26.00 [43]
+                                                                   Cu         Al              9.05            10.60 [43]          21.31             24.00 [43]
+                                                                   Zn         Al              8.08             5.12 [43]          21.42             22.20 [43]
+                                                                   Al         Fe              5.92                  –             44.50                  –
+                                                                   Ti         Fe              6.42             7.47 [42]          44.56             43.11 [42]
+                                                                   V          Fe              4.58          64.5 ± 10.8 [42]      44.45          78.28 ± 2.51 [42]
+                                                                   Cr         Fe              4.68             159 [42]           43.87          93.43 ± 6.70 [42]
+                                                                   Mn         Fe              6.35                  –             43.96             71.16 [42]
+Downloaded by [University of Strathclyde] at 05:28 26 April 2014
+
+
+
+
+                                                                   Co         Fe              7.00             9.40 [42]          43.89             46.04 [42]
+                                                                   Ni         Fe              6.99                  –             43.83                  –
+                                                                   Mo         Fe              4.45             19.6 [42]          45.12             73.25 [42]
+                                                                   W          Fe              4.56              85 [42]           44.22            100.46 [42]
+
+
+
+
+                                                                   in the solid and the chemical short-range order in the liquid, which agrees with the result
+                                                                   of Schick model. While the maximum point predicted from Kozlov’s model is at
+                                                                   xCu = 0.9, and the curves calculated from the other two models show no pronounced
+                                                                   maximum. In Figure 3(b), the predicted viscosities in liquid Al-(10–40) at.% Ni alloys
+                                                                   by Kozlov model agree well with the experimental data [53–55] while the calculated
+                                                                   results in liquid Al-(50–90) at.% Ni are slightly higher than the experimental ones [53].
+                                                                   The calculated viscosities by Kaptay model agree with some of the measured ones
+                                                                   [53,54] in liquid Al–Ni alloys, and the results by Budai model exhibits a similar shape.
+                                                                   The viscosities in liquid Al–Ni alloys calculated by Schick model obviously deviate
+                                                                   from the measured ones [53–55]. The experimentally measured viscosities [53] exhibit a
+                                                                   weak maximum at about xNi = 0.7, which can be reproduced by Kozlov model.
+                                                                       As can be seen from Figure 3, Kaptay equation is not suitable in the case that solid
+                                                                   intermetallic phases intensify chemical short-range order in the melts, though Kaptay
+                                                                   model can provide reasonable viscosities for some binary melts [27]. The predicted vis-
+                                                                   cosities using Schick model ﬁt the measured ones in liquid Al–Cu alloys well, but they
+                                                                   fail to agree with the experimental data in liquid Al–Ni alloys. The good agreement
+                                                                   between the theoretically predicted viscosities by Kozlov’s model and the experimen-
+                                                                   tally measured data in liquid Al–Cu and Al–Ni alloys obviously indicated that Kozlov
+                                                                   model is suitable to calculate the reliable viscosities in binary Al-based melts and can
+                                                                   be adopted to further predict the tracer diffusivities.
+                                                                       In Figure 4(a) and (b), the calculated tracer diffusivities of Al and Cu in Al–Cu
+                                                                   melts with the combination of Sutherland equation and Kozlov’s viscosity model are
+                                                                   compared with the measured and theoretical data [18,50,56]. It is noted that the
+                                                                   calculated results can reproduce most of the experimental data [50,56] and the MD
+                                                                   results [18] within the generally accepted error (i.e. a factor of 2 or 0.5 of the calculated
+                                                                   diffusivities) [43]. The calculated tracer diffusivities of Al and Ni in Al–Ni melts by
+                                                                   combining Sutherland equation with reliable viscosities are compared with the measured
+                                                                                                    Philosophical Magazine                                 13
+Downloaded by [University of Strathclyde] at 05:28 26 April 2014
+
+
+
+
+                                                                   Figure 3. (colour online) Calculated viscosities in (a) liquid Al–Cu alloys at 1573 K and
+                                                                   (b) liquid Al–Ni alloys at 1973 K, compared with the measured data [14,49–55].
+
+
+                                                                   and MD data [6,15–17,19,20,57,58], as shown in Figure 4(c) and (f). The calculated
+                                                                   tracer diffusivities of Ni in liquid Al–Ni alloys reasonably reproduce the measured data
+                                                                   [6,16,57,58] and the MD data [6,17,19,20]. In Figure 4(c) and (d), the predicted tracer
+                                                                   diffusivities in liquid Al–Ni alloys show slight deviation from the MD ones [15,16], but
+                                                                   they have the similar trend of the theoretical results. Figure 4 indicates that the present
+                                                                   method combined with the Sutherland equation and the Kozlov model can give the
+                                                                   reasonable tracer diffusivities in binary metallic melts.
+                                                                   14                                      W. Chen et al.
+
+                                                                       Vacancy-wind factor S in liquid Al-20 at.% Ni alloy is obtained via the calcu-
+                                                                   lated tracer diffusivities of Al and Ni, as shown in Figure 5. As can be seen from
+                                                                   the ﬁgure, the vacancy-wind factor in liquid Al-20 at.% Ni alloy decreases with the
+                                                                   increase of the temperature and ﬁnally reaches 1. It is noted that the calculated
+                                                                   vacancy wind factor in the present work is always larger than 1, while the other
+Downloaded by [University of Strathclyde] at 05:28 26 April 2014
+
+
+
+
+                                                                   Figure 4. (colour online) Calculated tracer diffusivities of (a) Al and Cu in liquid Al–Cu alloys
+                                                                   at 980, 1173, 1380 and 1500 K and (b) Cu in liquid Al-20 at.% Cu, compared with the corre-
+                                                                   sponding data available in the literature [18,50,56], (c) Al in liquid Al–Ni alloys at 1525, 1795
+                                                                   and 1900 K, (d) Ni in liquid Al–Ni alloys at 1525, 1795 and 1900 K, (e) Al in liquid Al-20 at.%
+                                                                   Ni and Al-50at.% Ni, and (f) Ni in liquid Al-(10-75) at.% Ni alloys, compared with the corre-
+                                                                   sponding data available in the literature [6,15–17,19,20,57,58].
+                                                                                                  Philosophical Magazine                              15
+Downloaded by [University of Strathclyde] at 05:28 26 April 2014
+
+
+
+
+                                                                   Figure 4. (Continued).
+
+
+                                                                   simulated ones can be less than one [6,20]. The fact that the simulated vacancy-
+                                                                   wind factor is less than one [6,20] indicates that M0 in the simulations is a negative
+                                                                   value, which contradicts the deﬁnition of M0 in Ref. [33] (M0 is deﬁned as the ratio
+                                                                   16                                    W. Chen et al.
+Downloaded by [University of Strathclyde] at 05:28 26 April 2014
+
+
+
+
+                                                                   Figure 4. (Continued).
+
+
+
+
+                                                                   Figure 5. (colour online) Calculated vacancy-wind factor for liquid Al-20 at.% Ni alloys at
+                                                                   different temperatures, compared with the other simulated data [6,20].
+
+
+                                                                   between the jump frequency that vacancy corrections are not included and the aver-
+                                                                   age vacancy jump frequency). The vacancy-wind factor S obtained via the measured
+                                                                   data [34] is actually larger than one, indicating that the vacancy mechanism or the
+                                                                   other diffusion mechanism similar to the vacancy mechanism is appropriate to the
+                                                                   liquid state. The diffusion mechanism in the melts is still an open question and not
+                                                                   in the scope of the present discussion. Therefore, the Manning relation is just used
+                                                                   as the correction of Darken relation in the present work.
+                                                                                                       Philosophical Magazine                                       17
+
+                                                                        In Figure 6, the calculated inter-diffusivities in liquid Al–Cu and Al–Ni alloys via
+                                                                   the Manning equation are compared with the corresponding data available in the
+                                                                   literature [6,18,59,60]. As shown in Figure 6(a) and (b), the calculated inter-diffusivities
+                                                                   in Al–Cu melts via the Manning relation agree well with the measured data [60]. Tak-
+                                                                   ing the Manning factor into account, it is obviously reasonable that the calculated
+Downloaded by [University of Strathclyde] at 05:28 26 April 2014
+
+
+
+
+                                                                   Figure 6. (colour online) Calculated inter-diffusivities in (a) liquid Al–Cu alloys at 983 and
+                                                                   1500 K and (b) liquid Al-18.7 at.% Cu and Al-40 at.% Cu alloys, compared with the correspond-
+                                                                   ing data available in the literature [18,60], and (c) calculated inter-diffusivities in liquid Al-15
+                                                                   wt.% Ni, Al-25 wt.% Ni, Al-35 wt.% Ni and Al-42 wt.% Ni alloys compared with the ones mea-
+                                                                   sured by Itin et al. [59] and (d) calculated inter-diffusivities in liquid Al-20 at.% Ni alloy com-
+                                                                   pared with the ones measured and simulated by Horbach et al. [6]. A constant, M, is added to
+                                                                   separate the results for different temperatures or alloy compositions.
+                                                                   18                                    W. Chen et al.
+Downloaded by [University of Strathclyde] at 05:28 26 April 2014
+
+
+
+
+                                                                   Figure 6. (Continued).
+
+
+                                                                   inter-diffusivities via the Manning equation are slightly larger than the MD ones
+                                                                   obtained by the Darken relation [18] due to the fact that vacancy wind factor is always
+                                                                   larger than one. In Figure 6(c) and (d), the calculated inter-diffusivities in liquid Al–Ni
+                                                                   alloys via the Manning relation agree well with the measured data [6,59]. The good
+                                                                   agreements between the calculated inter-diffusivities and the literature data indicate that
+                                                                   the accurate inter-diffusivities in binary metallic melts can be further obtained based on
+                                                                   the above-calculated tracer diffusivities.
+                                                                       The diffusion proﬁles in liquid diffusion couples can be simulated via the C++ pro-
+                                                                   gram in order to further validate the presently obtained inter-diffusivities. In the present
+                                                                   code, the inter-diffusivities at each point are associated with the concentration of the
+                                                                   diffusing element. Figure 7(a) presents the model-predicted concentration proﬁle of the
+                                                                                                     Philosophical Magazine                                     19
+
+                                                                   Al/Al-4.5 at.% Cu diffusion couple annealed at 983 K for 175 and 1045 s, along with
+                                                                   the experimental data [60]. Figure 7(b) shows the simulated concentration proﬁles in
+                                                                   liquid Al-10 at.% Cu/Al-15 at.% Cu diffusion couples annealed at 973 K for 7200 s,
+                                                                   along with the corresponding experimental data [61]. As shown in Figure 7, the simu-
+                                                                   lated concentration proﬁles in liquid Al–Cu alloys agree well with the experimental
+                                                                   results of Zhang et al. [60] and Heuskin et al. [61].
+Downloaded by [University of Strathclyde] at 05:28 26 April 2014
+
+
+
+
+                                                                   Figure 7. (colour online) Model-predicted concentration proﬁles of Cu in (a) liquid Al/Al-4.5
+                                                                   at.% Cu diffusion couple annealed at 983 K for 175 and 1045 s, compared with the measured data
+                                                                   [60], and (b) liquid Al-10 at.% Cu /Al-15 at.% Cu diffusion couple annealed at 973 K for 7200 s,
+                                                                   along with the corresponding experimental data [61].
+                                                                   20                                     W. Chen et al.
+
+                                                                   3.3. Viscosity and diffusivity in ternary system
+                                                                   In Figure 8, the viscosities in liquid Al–Ag–Cu alloys calculated by the above four viscos-
+                                                                   ity models at 1220 K are compared with the measured data [62]. As shown in the ﬁgure,
+                                                                   the calculated viscosities by Schick model in liquid Al-10 at.% Ag-(0–90) at.% Cu alloys
+                                                                   ﬁt best to the measured data [62] and the calculated results by Kozlov model agree with
+                                                                   the measured ones [62], indicating that both the Schick model and Kozlov model can cal-
+                                                                   culate the reliable viscosities in ternary Al-based melts. But the viscosities calculated from
+                                                                   the Kaptay model only agree well with the experimental data [62] in the Al-10 at.%
+                                                                   Ag-(0–30) at.% Cu melts, and the results using the Budai model show certain deviation
+                                                                   from the measured ones. In order to be consistent with the binary melts, Kozlov model is
+                                                                   still adopted to predict the tracer diffusivities in ternary liquid Al-based alloys.
+                                                                        The calculated ratio between the tracer diffusivity of Ni and that of Ce in liquid
+                                                                   Al-3 at.% Ce-10 at.% Ni alloy in the present work is 1.374, which is very close to the
+Downloaded by [University of Strathclyde] at 05:28 26 April 2014
+
+
+
+
+                                                                   experimental one (1.388) [57]. Figure 9 presents the calculated tracer diffusivities of Ni
+                                                                   in Al–Ce–Ni melts using Equation (4) at different temperatures, along with the mea-
+                                                                   sured data [57]. As can be seen in the ﬁgure, the calculated tracer diffusivities of Ni in
+                                                                   liquid Al-3 at.% Ce-10 at.% Ni, Al-6 at.% Ce-7 at.% Ni and Al-6 at.% Ce-10 at.% Ni
+                                                                   alloys are slightly higher than the measured data [57] while the calculated tracer diffu-
+                                                                   sivities of Ni in liquid Al-3 at.% Ce-20 at.% Ni and Al-3 at.% Ce-27 at.% Ni alloys are
+                                                                   slightly lower than the measured data [57], but all of them still fall in the typically
+                                                                   accepted error range. It can be seen from Figure 9 that the present method in combina-
+                                                                   tion with Sutherland equation and Kozlov model can give the reliable tracer diffusivities
+                                                                   in multicomponent metallic melts.
+                                                                        The calculated inter-diffusivity in liquid Al–Ag–Cu alloys at 973 K is compared
+                                                                   with the measured one by Kargl et al. [63], as shown in Figure 10. As can be seen
+
+
+
+
+                                                                   Figure 8. (colour online) Calculated viscosities in liquid Al-10 at.% Ag-(0, 10, 30, 40, 50, 70
+                                                                   and 90) at.% Cu alloys at 1220 K, compared with the measured data [62].
+                                                                                                     Philosophical Magazine                                     21
+Downloaded by [University of Strathclyde] at 05:28 26 April 2014
+
+
+
+
+                                                                   Figure 9. (colour online) Calculated tracer diffusivities of Ni in liquid Al–Ce–Ni alloys at
+                                                                   different temperatures, compared with the corresponding data available in the literature [57]. A
+                                                                   constant, M, is added to separate the results for different alloy compositions.
+
+                                                                   from the ﬁgure, the calculated main inter-diffusivity of Ag (3.60 × 10−9 m2 s−1) is
+                                                                   slightly lower than the measured value (4.4 ± 0.4 × 10−9 m2 s−1) [63] from a single diffu-
+                                                                   sion couple under the assumption of a quasi-binary case, but still within the typically
+                                                                   accepted error range for measurement of liquid diffusivity (ca. one order, the dash lines
+                                                                   as shown in Figure 10). It is noted that the eigenvalue term of the presently calculated
+                                                                   main inter-diffusivity of Ag (i.e. the effect of cross inter-diffusivity is not taken into
+                                                                   account) is 4.64 × 10−9 m2 s−1, which is very close to the experimental value [63]. Good
+                                                                   agreements between the calculated inter-diffusivity and the literature value [63] indicate
+
+
+
+
+                                                                   Figure 10. (colour online) Calculated inter-diffusivity in liquid Al–Ag–Cu alloys, compared with
+                                                                   the measured one [63].
+                                                                   22                                      W. Chen et al.
+
+                                                                   that the accurate inter-diffusivities in ternary metallic melts can be further obtained
+                                                                   based on the calculated tracer diffusivities.
+                                                                       To further verify the presently calculated inter-diffusivities, computational simula-
+                                                                   tions for concentration evolution in a variety of liquid Al–Ce–Ni and Al–Ag–Cu
+                                                                   diffusion couples were conducted in Figure 11. The comparisons between the model-
+                                                                   predicted concentration proﬁles and the measured ones in liquid Al-1.2 at.% Ce-20
+Downloaded by [University of Strathclyde] at 05:28 26 April 2014
+
+
+
+
+                                                                   Figure 11. (colour online) Simulated concentration proﬁles in (a) liquid Al-1.2 at.% Ce-20 at.%
+                                                                   Ni/Al-4.5 at.% Ce-16.5 at.% Ni diffusion couple annealed at 1380 K for 613 s, compared with the
+                                                                   measured data [64], (b) liquid Al-2.6 at.% Ce-12.5 at.% Ni/Al-2.6 at.% Ce-4 at.% Ni diffusion
+                                                                   couple annealed at 1275 K for 1193 s, compared with the experimental results [65], and (c) simu-
+                                                                   lated concentration proﬁles of Ag in liquid Al-22.6 at.% Ag-13.8 at.% Cu/Al-12.6 at.% Ag-13.8
+                                                                   at.% Cu diffusion couple annealed at 973 K for 420 and 1020 s, compared with the experimen-
+                                                                   tally measured data [63].
+                                                                                                    Philosophical Magazine                                 23
+Downloaded by [University of Strathclyde] at 05:28 26 April 2014
+
+
+
+
+                                                                   Figure 11. (Continued).
+
+
+                                                                   at.% Ni/Al-4.5 at.% Ce-16.5 at.% Ni diffusion couple annealed at 1380 K for 613 s and
+                                                                   Al-2.6 at.% Ce-12.5 at.% Ni/Al-2.6 at.% Ce-4 at.% Ni diffusion couple annealed at
+                                                                   1275 K for 1193 s [64,65] are shown in Figure 11(a) and (b), respectively. As can be
+                                                                   seen in the ﬁgures, the simulated results agree well with the experimental ones [64,65].
+                                                                   In Figure 11(c), the calculated concentration proﬁles of Ag in liquid Al-22.6 at.%
+                                                                   Ag-13.8 at.% Cu/Al-12.6 at.% Ag-13.8 at.% Cu diffusion couple annealed at 973 K for
+                                                                   420 and 1020 s are compared with the experimental data [63]. As demonstrated in
+                                                                   Figure 11(c), the measured concentration proﬁles of Ag in Al–Ag–Cu melts can be well
+                                                                   described by the simulated results. Thus, it can be concluded from Figure 11 that the
+                                                                   calculated inter-diffusivities obtained by the current method in the ternary melts are
+                                                                   reasonable. It is expected that the present method can be easily extrapolated to predict
+                                                                   the diffusivity in higher-component system.
+
+
+                                                                   4. Summary
+                                                                   In the present work, a modiﬁed Sutherland equation was derived by combing it with
+                                                                   Kaptay’s viscosity equation of pure liquid metals and temperature-dependent effective
+                                                                   diameter to predict both self-diffusivity and impurity diffusivity for metallic liquids. By
+                                                                   taking the size effect into account, the modiﬁed Sutherland equation was veriﬁed
+                                                                   through comprehensively comparing the calculated impurity diffusivities in different
+                                                                   metallic melts with the experimental ones.
+                                                                       The viscosities in liquid Al–Cu, Al–Ni and Al–Ag–Cu alloys were calculated by
+                                                                   various viscosity models including Kozlov model, Kaptay model, Budai model and
+                                                                   Schick model based on the reliable thermodynamic parameters. The comparison
+                                                                   between the calculated results from different models and the measured data available in
+                                                                   the literature suggested that the Kozlov’s model is the most reliable one. Thus the
+                                                                   Sutherland equation in combination with Kozlov model was used to calculate the tracer
+                                                                   24                                     W. Chen et al.
+
+                                                                   diffusivities in Al–Cu, Al–Ni and Al–Ce–Ni melts. Comprehensive comparisons
+                                                                   between the calculated results and the literature data indicated that the experimental
+                                                                   tracer diffusivities and the theoretical ones could be well reproduced by the current
+                                                                   results. In addition, the constant M0 in Manning equation for liquid phase was given to
+                                                                   be 0.01 for the ﬁrst time according to the previous experimental data. The calculated
+                                                                   inter-diffusivities in Al–Cu, Al–Ni and Al–Ag–Cu melts were in excellent agreement
+                                                                   with the measured and theoretical data. The presently predicted inter-diffusivities were
+                                                                   validated by the excellent agreement between the simulated concentration proﬁles and
+                                                                   the measured ones in liquid Al–Cu, Al–Ce–Ni and Al–Ag–Cu diffusion couples.
+
+
+                                                                   Funding
+                                                                   The ﬁnancial support from the National Natural Science Foundation for Youth of China [grant
+                                                                   number 51301208], Sino-German Center for Promotion of Science [grant number GZ 755],
+Downloaded by [University of Strathclyde] at 05:28 26 April 2014
+
+
+
+
+                                                                   National Basic Research Program of China [grant number 2011CB610401] and the Zhuzhou
+                                                                   Cemented Carbide Cutting Tools Co. Ltd. of China is acknowledged. Lijun Zhang acknowledges
+                                                                   support from Shenghua Scholar Program of Central South University, Changsha, P.R. China. Wei-
+                                                                   min Chen acknowledges support by Hunan Provincial Innovation Foundation for Postgraduate,
+                                                                   P.R. China.
+
+
+                                                                   References
+                                                                    [1] T. Ishikawa, P.-F. Paradis, J.T. Okada, M.V. Kumar and Y. Watanabe, J. Chem. Thermodyn.
+                                                                        65 (2013) p.1.
+                                                                    [2] A. Paul, Philos. Mag. 93 (2013) p.2297.
+                                                                    [3] J.C. Bendert and K.F. Kelton, J. Non-Cryst. Solids 376 (2013) p.205.
+                                                                    [4] A. Meyer, S. Stüber, D. Holland-Moritz, O. Heinen and T. Unruh, Phys. Rev. B 77 (2008)
+                                                                        p.092201.
+                                                                    [5] F. Kargl, H. Weis, T. Unruh and A. Meyer, J. Phys: Conf. Ser. 340 (2012) p.012077.
+                                                                    [6] J. Horbach, S.K. Das, A. Griesche, M.-P. Macht, G. Frohberg and A. Meyer, Phys. Rev. B
+                                                                        75 (2007) p.174304.
+                                                                    [7] L.J. Zhang, Y. Du, I. Steinbach, Q. Chen and B.Y. Huang, Acta Mater. 58 (2010) p.3664.
+                                                                    [8] W. Sutherland, Philos. Mag. 9 (1905) p.781.
+                                                                    [9] A. Einstein, Ann. Phys. 322 (1905) p.549.
+                                                                   [10] P. Protopapas, H.C. Andersen and N.A.D. Parlee, J. Chem. Phys. 59 (1973) p.15.
+                                                                   [11] L.Y. Kozlov, L.M. Romanov and N.N. Petrov, Izv. Vuzov., Chernaya. Metall. 3 (1983) p.7.
+                                                                   [12] G. Kaptay, Int. J. Mater. Res. 99 (2008) p.14.
+                                                                   [13] X.P. Su, S. Yang, J.H. Wang, N.-Y. Tang, F.C. Yin, Z. Li and M. Zhao, J. Phase Equilib.
+                                                                        Diffus. 31 (2010) p.333.
+                                                                   [14] M. Schick, J. Brillo, I. Egry and B. Hallstedt, J. Mater. Sci. 47 (2012) p.8145.
+                                                                   [15] M. Asta, D. Morgan, J.J. Hoyt, B. Sadigh, J.D. Althoff, D. de Fontaine and S.M. Foiles,
+                                                                        Phys. Rev. B 59 (1999) p.14271.
+                                                                   [16] S.K. Das, J. Horbach, M.M. Koza, S.M. Chatoth and A. Meyer, Appl. Phys. Lett. 86 (2005)
+                                                                        p.011918.
+                                                                   [17] A. Kerrache, J. Horbach and K. Binder, Europhys. Lett. 81 (2008) p.58001.
+                                                                   [18] H. Cheng, Y.J. Lü and M. Chen, J. Chem. Phys. 131 (2009) p.044502.
+                                                                   [19] E.V. Levchenko, A.V. Evteev, I.V. Belova and G.E. Murch, Comput. Mater. Sci. 50 (2010)
+                                                                        p.331.
+                                                                   [20] W.Y. Wang, H.Z. Fang, S.L. Shang, H. Zhang, Y. Wang, X. Hui, S. Mathaudhu and Z.K.
+                                                                        Liu, Physica B 406 (2011) p.3089.
+                                                                                                     Philosophical Magazine                                     25
+
+                                                                   [21] M. Mouas, J.-G. Gasser, S. Hellal, B. Grosdidier, A. Makradi and S. Belouettar, J. Chem.
+                                                                        Phys. 136 (2012) p.094501.
+                                                                   [22] A. Meyer, Phys. Rev. B 81 (2010) p.012102.
+                                                                   [23] J. Henderson and L. Yang, Trans. Metall. Soc. AIME 221 (1961) p.72.
+                                                                   [24] M.J. Assael, K. Kakosimos, R.M. Banish, J. Brillo, I. Egry, R. Brooks, P.N. Quested, K.C.
+                                                                        Mills, A. Nagashima, Y. Sato and W.A. Wakeham, J. Phys. Chem. Ref. Data 35 (2006)
+                                                                        p.285.
+                                                                   [25] M.J. Assael, A.E. Kalyva, K.D. Antoniadis, R.M. Banish, I. Egry, J. Wu, E. Kaschnitz and
+                                                                        W.A. Wakeham, J. Phys. Chem. Ref. Data 39 (2010) p.033105.
+                                                                   [26] M.J. Assael, A.E. Kalyva, K.D. Antoniadis, R.M. Banish, I. Egry, J. Wu, E. Kaschnitz and
+                                                                        W.A. Wakeham, High Temp.-High Press 41 (2012) p.161.
+                                                                   [27] G. Kaptay, Z. Metallkd. 96 (2005) p.24.
+                                                                   [28] E.N. Andrade, Philos. Mag. 17 (1934) p.497.
+                                                                   [29] A.K. Roy and R.P. Chhabra, Metall. Trans. A 19 (1988) p.273.
+                                                                   [30] Y. Du, S.H. Liu, L.J. Zhang, H.H. Xu, D.D. Zhao, A.J. Wang and L.C. Zhou, CALPHAD
+Downloaded by [University of Strathclyde] at 05:28 26 April 2014
+
+
+
+
+                                                                        35 (2011) p.427.
+                                                                   [31] G. Kaptay, A new equation to estimate the concentration dependence of the viscosity of
+                                                                        liquid metallic alloys from the heat of mixing data, in Proceedings of microCAD 2003 Inter-
+                                                                        national Conference, Hungary, 2003, p.23.
+                                                                   [32] I. Budai, M.Z. Benkő and G. Kaptay, Mater. Sci. Forum 537–538 (2007) p.489.
+                                                                   [33] J.R. Manning, Acta Metall. 15 (1967) p.817.
+                                                                   [34] G. Mathiak, E. Plescher and R. Willnecker, Meas. Sci. Technol. 16 (2005) p.336.
+                                                                   [35] I. Ansara and F. Ajersch, J. Phase Equilib. 12 (1991) p.73.
+                                                                   [36] A. Meyer, Phys. Rev. B 66 (2002) p.134205.
+                                                                   [37] F. Demmel, D. Szubrin, W.-C. Pilgrim and C. Morkel, Phys. Rev. B 84 (2011) p.014307.
+                                                                   [38] E.S. Levin, V.N. Zamaraev and P.V. Sverdlovsk, Izvestiya. Akademii. Nauk. SSSR: Metally
+                                                                        2 (1976) p.113.
+                                                                   [39] S.M. Chathoth, A. Meyer, M.M. Koza and F. Juranyi, Appl. Phys. Lett. 85 (2004) p.4881.
+                                                                   [40] W. Lange, W. Pippel and F. Bendel, Z. Phys. Chem. 212 (1959) p.238.
+                                                                   [41] N.H. Nachtrieb, E. Fraga and C. Wahl, J. Phys. Chem. 67 (1963) p.2353.
+                                                                   [42] P. Kubíček and T. Pepřica, Int. Mater. Rev. 28 (1983) p.131.
+                                                                   [43] Y. Du, Y.A. Chang, B.Y. Huang, W.P. Gong, Z.P. Jin, H.H. Xu, Z. Yuan, Y. Liu, Y. He and
+                                                                        F.-Y. Xie, Mater. Sci. Eng., A 363 (2003) p.140.
+                                                                   [44] G. Mathiak, A. Griesche, K.H. Kraatz and G. Frohberg, J. Non-Cryst. Solids 205–207
+                                                                        (1996) p.412.
+                                                                   [45] W.M. Chen, L.J. Zhang, D.D. Liu, Y. Du and C.Y. Tan, J. Electron. Mater. 42 (2013)
+                                                                        p.1158.
+                                                                   [46] W.M. Chen, L.J. Zhang, Y. Du and B.Y. Huang, J. Electron. Mater. (2014) in press. doi:
+                                                                        10.1007/s11664-014-3041-5
+                                                                   [47] W.M. Chen, W. Xie, L.J. Zhang, L. Chen, Y. Du, B.Y. Huang, G.H. Wen and S.Q. Wang,
+                                                                        Int. J. Refract. Met. Hard Mater. 41 (2013) p.531.
+                                                                   [48] M.J. Assael, I.J. Armyra, J. Brillo, S.V. Stankus, J. Wu and W.A. Wakeham, J. Phys. Chem.
+                                                                        Ref. Data 41 (2012) p.033101.
+                                                                   [49] Y. Plevachuk, V. Sklyarchuk, A. Yakymovych, S. Eckert, B. Willers and K. Eigenfeld,
+                                                                        Metall. Mater. Trans. A 39 (2008) p.3040.
+                                                                   [50] J. Brillo, S.M. Chathoth, M.M. Koza and A. Meyer, Appl. Phys. Lett. 93 (2008) p.121905.
+                                                                   [51] N. Konstantinova, A. Kurochkin and P. Popel, EPJ Web Conf. 15 (2010) p.01024.
+                                                                   [52] N. Ouchi, K. Takagi, O. Takeda and Y. Sato, Viscosities of molten Cu-X (X=Al, Ni) systems,
+                                                                        in Proceedings 9th Asian Thermophysical Property Conference, China, 2010, p.109301.
+                                                                   [53] M. Kehr, M. Schick, W. Hoyer and I. Egry, High Temp.-High Press 37 (2008) p.361.
+                                                                   26                                      W. Chen et al.
+
+                                                                   [54] I. Egry, R. Brooks, D. Holland-Moritz, R. Novakovic, T. Matsushita, Y. Plevachuk, E. Ricci,
+                                                                        S. Seetharaman, V. Sklyarchuk and R. Wunderlich, High Temp.-High Press 38 (2009) p.343.
+                                                                   [55] R.K. Wunderlich and H.-J. Fecht, Int. J. Mater. Res. 102 (2011) p.1164.
+                                                                   [56] U. Dahlborg, M. Besser, M.J. Kramer, J.R. Morris and M. Calvo-Dahlborg, Physica B 412
+                                                                        (2013) p.50.
+                                                                   [57] A. Griesche, S.M. Chathoth, M.-P. Macht, G. Frohberg, M. Koza and A. Meyer, High
+                                                                        Temp.-High Press 37 (2008) p.153.
+                                                                   [58] S. Stüber, D. Holland-Moritz, T. Unruh and A. Meyer, Phys. Rev. B 81 (2010) p.024204.
+                                                                   [59] V.I. Itin, G.A. Prlbytkov, A.N. Tabachenko and S.S. Borisov, Izv. Vuz. Fiz+. 22 (1979)
+                                                                        p.13.
+                                                                   [60] B. Zhang, A. Griesche and A. Meyer, Phys. Rev. Lett. 104 (2010) p.035902.
+                                                                   [61] D. Heuskin, F. Kargl and A. Meyer, High Temp.-High Press 42 (2013) p.31.
+                                                                   [62] J. Brillo, R. Brooks, I. Egry and P. Quested, High Temp.-High Press 37 (2008) p.371.
+                                                                   [63] F. Kargl, M. Engelhardt, F. Yang, H. Weis, P. Schmakat, B. Schillinger, A. Griesche and
+                                                                        A. Meyer, J. Phys: Condens. Matter. 23 (2011) p.254201.
+Downloaded by [University of Strathclyde] at 05:28 26 April 2014
+
+
+
+
+                                                                   [64] A. Griesche, F.G. Moreno, M.-P. Macht and G. Frohberg, Mater. Sci. Forum 508 (2006)
+                                                                        p.567.
+                                                                   [65] A. Griesche, M.-P. Macht and G. Frohberg, J. Non-Cryst. Solids 353 (2007) p.3305.
+

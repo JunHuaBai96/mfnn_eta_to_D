@@ -1,0 +1,54 @@
+# Python / env
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# OS / editor / Office lock files
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*
+*.tmp
+*.bak
+*.bak_*
+
+# Local scratch at repo root (probe scripts and dumps)
+/_*.py
+/_*.txt
+/_*.csv
+/_*.png
+/_tmp_*/
+
+# Probe scripts directly under scripts/ (keep scripts/publish_figures/_style.py)
+/scripts/_*.py
+/scripts/_*.txt
+/scripts/_*.png
+/scripts/_*.csv
+/scripts/qa*.png
+
+# Private / bulky working material (not part of the public data+code package)
+_archive_private/
+outputs/origin_data/
+outputs/advisor_ppt/
+outputs/_ppt_build/
+outputs/PAPER_JCP_draft_EN_academic_FIXED*.docx
+outputs/PAPER_JCP_draft_EN.md
+outputs/_m123_*.txt
+outputs/CLEANUP_*.md
+outputs/PAPER_IMPROVEMENT_LOG.md
+outputs/PAPER_REVIEW_ROUND3.md
+outputs/edit_whitelist_round3.yaml
+outputs/origin_data_qa_*
+outputs/jcp_submission/PAPER_JCP_draft_EN_academic.docx
+outputs/jcp_submission/PAPER_JCP_draft_EN.md
+outputs/jcp_submission/PAPER_workflow_steps_Notion.md
+build_advisor_pptx.js
+PAPER_workflow_steps_Notion.md
+
+# Leftover probe exports at repo root (publication Origin figures live in outputs/figures_origin/)
+/figures_origin/

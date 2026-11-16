@@ -1,0 +1,54 @@
+﻿sample_id,system,fidelity,diff_type,diff_species,solvent_species,T_K,x_Al,x_Cu,x_Ce,x_Ni,x_Ag,x_Mg,x_Si,eta_Pas,D_m2s,comp_group,is_placeholder,source_paper,source_fig_or_table,what_to_digitize,unit_check,notes
+CHEN_F3a_01,Al-Cu,LF,tracer,Cu,Al,,0.9,0.1,,,,,,,,Al90Cu10,False,Chen2014_PhilMag,Fig.3(a),读图：1573 K 下该成分的实验粘度点（或 Kozlov 计算曲线点）→ 填 eta_Pas；D 可用修正 Sutherland 由 eta 算得后填（LF）,粘度若为 mPa·s ÷1000 → Pa·s；T_K=1573,粘度图，无直接 D；LF 用 Sutherland 转换
+CHEN_F3a_02,Al-Cu,LF,tracer,Cu,Al,,0.8,0.2,,,,,,,,Al80Cu20,False,Chen2014_PhilMag,Fig.3(a),读图：1573 K 下该成分的实验粘度点（或 Kozlov 计算曲线点）→ 填 eta_Pas；D 可用修正 Sutherland 由 eta 算得后填（LF）,粘度若为 mPa·s ÷1000 → Pa·s；T_K=1573,粘度图，无直接 D；LF 用 Sutherland 转换
+CHEN_F3a_03,Al-Cu,LF,tracer,Cu,Al,,0.7,0.3,,,,,,,,Al70Cu30,False,Chen2014_PhilMag,Fig.3(a),读图：1573 K 下该成分的实验粘度点（或 Kozlov 计算曲线点）→ 填 eta_Pas；D 可用修正 Sutherland 由 eta 算得后填（LF）,粘度若为 mPa·s ÷1000 → Pa·s；T_K=1573,粘度图，无直接 D；LF 用 Sutherland 转换
+CHEN_F3a_04,Al-Cu,LF,tracer,Cu,Al,,0.6,0.4,,,,,,,,Al60Cu40,False,Chen2014_PhilMag,Fig.3(a),读图：1573 K 下该成分的实验粘度点（或 Kozlov 计算曲线点）→ 填 eta_Pas；D 可用修正 Sutherland 由 eta 算得后填（LF）,粘度若为 mPa·s ÷1000 → Pa·s；T_K=1573,粘度图，无直接 D；LF 用 Sutherland 转换
+CHEN_F4ab_HF_01,Al-Cu,HF,tracer,Cu,Al,,0.8,0.2,,,,,,,,Al80Cu20,False,Chen2014_PhilMag,Fig.4(a)(b),读图：Al–Cu 熔体中 Al/Cu tracer D 的实验点 → 填 T_K、成分、D_m2s；同条件粘度尽量从 Fig.3 或原文引用补 eta_Pas,D 常见 10^-9 m^2/s 量级，写成 7.1e-09,HF=文献实验 tracer；物种按图注选 Al 或 Cu
+CHEN_F4ab_LF_01,Al-Cu,LF,tracer,Cu,Al,,0.8,0.2,,,,,,,,Al80Cu20,False,Chen2014_PhilMag,Fig.4(a)(b),"同一 (T,成分)：填论文计算曲线（Kozlov+Sutherland）上的 D，或由实验/模型 eta 转换的 D",与对应 HF 行 T、成分一致，便于 MFNN 配对,LF=公式/转换值，勿把实验点标成 LF
+CHEN_F4ab_HF_02,Al-Cu,HF,tracer,Cu,Al,,0.8,0.2,,,,,,,,Al80Cu20,False,Chen2014_PhilMag,Fig.4(a)(b),读图：Al–Cu 熔体中 Al/Cu tracer D 的实验点 → 填 T_K、成分、D_m2s；同条件粘度尽量从 Fig.3 或原文引用补 eta_Pas,D 常见 10^-9 m^2/s 量级，写成 7.1e-09,HF=文献实验 tracer；物种按图注选 Al 或 Cu
+CHEN_F4ab_LF_02,Al-Cu,LF,tracer,Cu,Al,,0.8,0.2,,,,,,,,Al80Cu20,False,Chen2014_PhilMag,Fig.4(a)(b),"同一 (T,成分)：填论文计算曲线（Kozlov+Sutherland）上的 D，或由实验/模型 eta 转换的 D",与对应 HF 行 T、成分一致，便于 MFNN 配对,LF=公式/转换值，勿把实验点标成 LF
+CHEN_F4ab_HF_03,Al-Cu,HF,tracer,Cu,Al,,0.7,0.3,,,,,,,,Al70Cu30,False,Chen2014_PhilMag,Fig.4(a)(b),读图：Al–Cu 熔体中 Al/Cu tracer D 的实验点 → 填 T_K、成分、D_m2s；同条件粘度尽量从 Fig.3 或原文引用补 eta_Pas,D 常见 10^-9 m^2/s 量级，写成 7.1e-09,HF=文献实验 tracer；物种按图注选 Al 或 Cu
+CHEN_F4ab_LF_03,Al-Cu,LF,tracer,Cu,Al,,0.7,0.3,,,,,,,,Al70Cu30,False,Chen2014_PhilMag,Fig.4(a)(b),"同一 (T,成分)：填论文计算曲线（Kozlov+Sutherland）上的 D，或由实验/模型 eta 转换的 D",与对应 HF 行 T、成分一致，便于 MFNN 配对,LF=公式/转换值，勿把实验点标成 LF
+CHEN_F4ab_HF_04,Al-Cu,HF,tracer,Cu,Al,,0.7,0.3,,,,,,,,Al70Cu30,False,Chen2014_PhilMag,Fig.4(a)(b),读图：Al–Cu 熔体中 Al/Cu tracer D 的实验点 → 填 T_K、成分、D_m2s；同条件粘度尽量从 Fig.3 或原文引用补 eta_Pas,D 常见 10^-9 m^2/s 量级，写成 7.1e-09,HF=文献实验 tracer；物种按图注选 Al 或 Cu
+CHEN_F4ab_LF_04,Al-Cu,LF,tracer,Cu,Al,,0.7,0.3,,,,,,,,Al70Cu30,False,Chen2014_PhilMag,Fig.4(a)(b),"同一 (T,成分)：填论文计算曲线（Kozlov+Sutherland）上的 D，或由实验/模型 eta 转换的 D",与对应 HF 行 T、成分一致，便于 MFNN 配对,LF=公式/转换值，勿把实验点标成 LF
+CHEN_F6_HF_01,Al-Cu,HF,inter,Cu,Al,,0.813,0.187,,,,,,,,Al81.3Cu18.7,False,Chen2014_PhilMag,Fig.6(a)(b),读图：约 983 K 的 Al–Cu interdiffusivity 实验点 → T_K、x、D；eta 尽量补全,inter 用 diff_type=inter；D 单位 m^2/s,对照 Fig.7 扩散偶可核对成分
+CHEN_F6_LF_01,Al-Cu,LF,inter,Cu,Al,,0.813,0.187,,,,,,,,Al81.3Cu18.7,False,Chen2014_PhilMag,Fig.6(a)(b),同条件 Manning/Sutherland 计算的 interdiffusivity（图中计算曲线）,与 HF 同行条件对齐,
+CHEN_F6_HF_02,Al-Cu,HF,inter,Cu,Al,,0.9,0.1,,,,,,,,Al90.0Cu10.0,False,Chen2014_PhilMag,Fig.6(a)(b),读图：约 983 K 的 Al–Cu interdiffusivity 实验点 → T_K、x、D；eta 尽量补全,inter 用 diff_type=inter；D 单位 m^2/s,对照 Fig.7 扩散偶可核对成分
+CHEN_F6_LF_02,Al-Cu,LF,inter,Cu,Al,,0.9,0.1,,,,,,,,Al90.0Cu10.0,False,Chen2014_PhilMag,Fig.6(a)(b),同条件 Manning/Sutherland 计算的 interdiffusivity（图中计算曲线）,与 HF 同行条件对齐,
+CHEN_F6_HF_03,Al-Cu,HF,inter,Cu,Al,,0.875,0.125,,,,,,,,Al87.5Cu12.5,False,Chen2014_PhilMag,Fig.6(a)(b),读图：约 973 K 的 Al–Cu interdiffusivity 实验点 → T_K、x、D；eta 尽量补全,inter 用 diff_type=inter；D 单位 m^2/s,对照 Fig.7 扩散偶可核对成分
+CHEN_F6_LF_03,Al-Cu,LF,inter,Cu,Al,,0.875,0.125,,,,,,,,Al87.5Cu12.5,False,Chen2014_PhilMag,Fig.6(a)(b),同条件 Manning/Sutherland 计算的 interdiffusivity（图中计算曲线）,与 HF 同行条件对齐,
+CHEN_F8_01,Al-Ag-Cu,LF,tracer,Ag,Al,,0.9,0.0,,,0.1,,,,,Al90Ag10,False,Chen2014_PhilMag,Fig.8,读图：Al-10at%Ag-(0–90)at%Cu @1220K 实验粘度 → eta_Pas；D 用 Sutherland 转成 LF tracer（建议 diff_species=Ag 或 Cu 分开各一行）,T_K=1220；x_Ag≈0.10，x_Cu 按图，x_Al=1-x_Ag-x_Cu,先有可靠 eta，再生成 LF D
+CHEN_F8_02,Al-Ag-Cu,LF,tracer,Ag,Al,,0.8,0.1,,,0.1,,,,,Al90Ag10Cu10,False,Chen2014_PhilMag,Fig.8,读图：Al-10at%Ag-(0–90)at%Cu @1220K 实验粘度 → eta_Pas；D 用 Sutherland 转成 LF tracer（建议 diff_species=Ag 或 Cu 分开各一行）,T_K=1220；x_Ag≈0.10，x_Cu 按图，x_Al=1-x_Ag-x_Cu,先有可靠 eta，再生成 LF D
+CHEN_F8_03,Al-Ag-Cu,LF,tracer,Ag,Al,,0.6000000000000001,0.3,,,0.1,,,,,Al90Ag10Cu30,False,Chen2014_PhilMag,Fig.8,读图：Al-10at%Ag-(0–90)at%Cu @1220K 实验粘度 → eta_Pas；D 用 Sutherland 转成 LF tracer（建议 diff_species=Ag 或 Cu 分开各一行）,T_K=1220；x_Ag≈0.10，x_Cu 按图，x_Al=1-x_Ag-x_Cu,先有可靠 eta，再生成 LF D
+CHEN_F8_04,Al-Ag-Cu,LF,tracer,Ag,Al,,0.5,0.4,,,0.1,,,,,Al90Ag10Cu40,False,Chen2014_PhilMag,Fig.8,读图：Al-10at%Ag-(0–90)at%Cu @1220K 实验粘度 → eta_Pas；D 用 Sutherland 转成 LF tracer（建议 diff_species=Ag 或 Cu 分开各一行）,T_K=1220；x_Ag≈0.10，x_Cu 按图，x_Al=1-x_Ag-x_Cu,先有可靠 eta，再生成 LF D
+CHEN_F9_HF_01,Al-Ce-Ni,HF,tracer,Ni,Al,,0.87,,0.03,0.1,,,,,,Al87Ce3Ni10,False,Chen2014_PhilMag,Fig.9,读图：该成分 Ni tracer D 的实验点（多温度各占一行）→ T_K、D_m2s；eta 可从 Kozlov 或文中方法补,每温度一行；不要只抄一条,Chen 文中成分：Al-3Ce-10Ni 等（at%）
+CHEN_F9_LF_01,Al-Ce-Ni,LF,tracer,Ni,Al,,0.87,,0.03,0.1,,,,,,Al87Ce3Ni10,False,Chen2014_PhilMag,Fig.9,同成分同 T：图中计算曲线（Eq.4/Sutherland+Kozlov）D,与 HF 对齐 T 与成分,
+CHEN_F9_HF_02,Al-Ce-Ni,HF,tracer,Ni,Al,,0.77,,0.03,0.2,,,,,,Al77Ce3Ni20,False,Chen2014_PhilMag,Fig.9,读图：该成分 Ni tracer D 的实验点（多温度各占一行）→ T_K、D_m2s；eta 可从 Kozlov 或文中方法补,每温度一行；不要只抄一条,Chen 文中成分：Al-3Ce-10Ni 等（at%）
+CHEN_F9_LF_02,Al-Ce-Ni,LF,tracer,Ni,Al,,0.77,,0.03,0.2,,,,,,Al77Ce3Ni20,False,Chen2014_PhilMag,Fig.9,同成分同 T：图中计算曲线（Eq.4/Sutherland+Kozlov）D,与 HF 对齐 T 与成分,
+CHEN_F9_HF_03,Al-Ce-Ni,HF,tracer,Ni,Al,,0.7,,0.03,0.27,,,,,,Al70Ce3Ni27,False,Chen2014_PhilMag,Fig.9,读图：该成分 Ni tracer D 的实验点（多温度各占一行）→ T_K、D_m2s；eta 可从 Kozlov 或文中方法补,每温度一行；不要只抄一条,Chen 文中成分：Al-3Ce-10Ni 等（at%）
+CHEN_F9_LF_03,Al-Ce-Ni,LF,tracer,Ni,Al,,0.7,,0.03,0.27,,,,,,Al70Ce3Ni27,False,Chen2014_PhilMag,Fig.9,同成分同 T：图中计算曲线（Eq.4/Sutherland+Kozlov）D,与 HF 对齐 T 与成分,
+CHEN_F9_HF_04,Al-Ce-Ni,HF,tracer,Ni,Al,,0.87,,0.06,0.07,,,,,,Al87Ce6Ni7,False,Chen2014_PhilMag,Fig.9,读图：该成分 Ni tracer D 的实验点（多温度各占一行）→ T_K、D_m2s；eta 可从 Kozlov 或文中方法补,每温度一行；不要只抄一条,Chen 文中成分：Al-3Ce-10Ni 等（at%）
+CHEN_F9_LF_04,Al-Ce-Ni,LF,tracer,Ni,Al,,0.87,,0.06,0.07,,,,,,Al87Ce6Ni7,False,Chen2014_PhilMag,Fig.9,同成分同 T：图中计算曲线（Eq.4/Sutherland+Kozlov）D,与 HF 对齐 T 与成分,
+CHEN_F9_HF_05,Al-Ce-Ni,HF,tracer,Ni,Al,,0.84,,0.06,0.1,,,,,,Al84Ce6Ni10,False,Chen2014_PhilMag,Fig.9,读图：该成分 Ni tracer D 的实验点（多温度各占一行）→ T_K、D_m2s；eta 可从 Kozlov 或文中方法补,每温度一行；不要只抄一条,Chen 文中成分：Al-3Ce-10Ni 等（at%）
+CHEN_F9_LF_05,Al-Ce-Ni,LF,tracer,Ni,Al,,0.84,,0.06,0.1,,,,,,Al84Ce6Ni10,False,Chen2014_PhilMag,Fig.9,同成分同 T：图中计算曲线（Eq.4/Sutherland+Kozlov）D,与 HF 对齐 T 与成分,
+CHEN_F10_HF_01,Al-Ag-Cu,HF,inter,Ag,Al,,0.686,0.138,,,0.176,,,,,Al68.6Ag17.6Cu13.8,False,Chen2014_PhilMag,Fig.10,读图：973 K Al–Ag–Cu interdiffusivity 实验点（Kargl et al.）→ 成分、D；补 eta,T_K=973；成分按原文/图注 at% 换算摩尔分数,若图给多个成分，复制多行
+CHEN_F10_LF_01,Al-Ag-Cu,LF,inter,Ag,Al,,0.686,0.138,,,0.176,,,,,Al68.6Ag17.6Cu13.8,False,Chen2014_PhilMag,Fig.10,同条件计算 interdiffusivity 曲线点,与 HF 对齐,
+TANG_T1_HF_Al_self_01,Al-Mg-Si,HF,self,Al,Al,,1.0,,,,,,,,,PureAl,False,Tang2015_CALPHAD,Table 1 + Fig.1(a),"按 Table1：液态 Al 自扩散实验（Demmel[29], Kargl[30] QNS）→ 多个 T 各一行填 D；eta 可暂空或从 ηAl 行补",只抄 liquid；fcc 行不要进本表,Table1 的 Code +/□/■ 优先抄 + 与 □ 可靠点
+TANG_T1_LF_Al_self_01,Al-Mg-Si,LF,self,Al,Al,,1.0,,,,,,,,,PureAl,False,Tang2015_CALPHAD,Table 1 (ηAl) + Fig.1(a),按 Table1 ηAl 实验粘度（多文献）→ 填 eta_Pas，再用 Sutherland 转 D 作 LF；或直接读 Fig.1 转换点,η: mPa·s→Pa·s；与 HF 尽量同温区,粘度转换 D = LF
+TANG_T1_HF_Si_tracer_01,Al-Mg-Si,HF,tracer,Si,Al,,0.878,,,,,,0.122,,,Al87.5Si12.5,False,Tang2015_CALPHAD,Table 1 + Fig.3(b),Petrscu[31]：Al-12.5wt%Si 中 Si tracer（858–1123K）→ 换算摩尔分数后填 x、T、D,wt%→at%/摩尔分数勿混,HF 实验 tracer
+TANG_T1_LF_Si_tracer_01,Al-Mg-Si,LF,tracer,Si,Al,,0.878,,,,,,0.122,,,Al87.5Si12.5,False,Tang2015_CALPHAD,Table 1 (ηAlSi) + Fig.3,Al–Si 粘度实验转 Sutherland tracer（Fig.3 转换点）→ LF,与 HF 成分接近时便于对比,
+TANG_F2_LF_AlMg_01,Al-Mg-Si,LF,tracer,Mg,Al,,0.9,,,,,0.1,,,,Al90Mg10,False,Tang2015_CALPHAD,Fig.2 + Table1 ηAlMg,"Fig.2：Al–Mg 全成分 tracer（由粘度转换）→ 选若干 (x_Mg,T) 填 LF；可补少数同条件若有实验则另开 HF 行",x_Al+x_Mg=1,熔体 Al–Mg 以转换数据为主
+TANG_F2_LF_AlMg_02,Al-Mg-Si,LF,tracer,Al,Al,,0.9,,,,,0.1,,,,Al90Mg10,False,Tang2015_CALPHAD,Fig.2(a),同 Fig.2 中 Al tracer 转换点（若图中有）,,diff_species=Al
+TANG_F3_LF_AlSi_01,Al-Mg-Si,LF,tracer,Si,Al,,0.9,,,,,,0.1,,,Al_Si_from_Fig3,False,Tang2015_CALPHAD,Fig.3 + Table1 ηAlSi,Fig.3：Al–Si tracer 计算/转换点 → 多成分多温度各一行 LF,,优先与 Table1 ηAlSi 引用一致的成分
+TANG_F4_LF_ternary_01,Al-Mg-Si,LF,tracer,Si,Al,,0.93,,,,,0.004,0.066,,,A356_AlMgSi,False,Tang2015_CALPHAD,Fig.4 + Table1 ηAlMgSi [42],Wang&Overfelt[42] A356（约 Al-0.34wt%Mg-6.9wt%Si）963–1113K 粘度 → 换算摩尔分数、填 eta，Sutherland 转 D 为 LF,先 wt%→摩尔分数；T 取若干点,三元熔体关键案例
+TANG_F4_check_01,Al-Mg-Si,HF,tracer,Si,Al,,0.93,,,,,0.004,0.066,,,A356_AlMgSi,False,Tang2015_CALPHAD,Table1 Code □ + Fig.4,若 Fig.4/正文有可用于核对的实验 D（非仅粘度），标 HF；否则删此行，只保留粘度转 LF,没有实验 D 就不要硬填 HF,Table1 对 ηAlMgSi 为 □（核对用）
+EXTRA_01,,,,,,,,,,,,,,,,,False,,,备用空行：从上述图/表继续加温度或成分点,单位统一后再填,复制后改 sample_id
+EXTRA_02,,,,,,,,,,,,,,,,,False,,,备用空行：从上述图/表继续加温度或成分点,单位统一后再填,复制后改 sample_id
+EXTRA_03,,,,,,,,,,,,,,,,,False,,,备用空行：从上述图/表继续加温度或成分点,单位统一后再填,复制后改 sample_id
+EXTRA_04,,,,,,,,,,,,,,,,,False,,,备用空行：从上述图/表继续加温度或成分点,单位统一后再填,复制后改 sample_id
+EXTRA_05,,,,,,,,,,,,,,,,,False,,,备用空行：从上述图/表继续加温度或成分点,单位统一后再填,复制后改 sample_id
+EXTRA_06,,,,,,,,,,,,,,,,,False,,,备用空行：从上述图/表继续加温度或成分点,单位统一后再填,复制后改 sample_id
+EXTRA_07,,,,,,,,,,,,,,,,,False,,,备用空行：从上述图/表继续加温度或成分点,单位统一后再填,复制后改 sample_id
+EXTRA_08,,,,,,,,,,,,,,,,,False,,,备用空行：从上述图/表继续加温度或成分点,单位统一后再填,复制后改 sample_id
+EXTRA_09,,,,,,,,,,,,,,,,,False,,,备用空行：从上述图/表继续加温度或成分点,单位统一后再填,复制后改 sample_id
+EXTRA_10,,,,,,,,,,,,,,,,,False,,,备用空行：从上述图/表继续加温度或成分点,单位统一后再填,复制后改 sample_id
